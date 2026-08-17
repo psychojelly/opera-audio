@@ -1,5 +1,5 @@
 BaseUrl,https://raw.githubusercontent.com/your-org/your-repo/main/audio,,,,,
-CsvVersion,14,,,,,
+CsvVersion,16,,,,,
 CueId,Notes,StemFileName,Version,Action,Volume,Speed
 STOP_ALL,Kill everything,,,StopAll,,2
 A_SQ001,Prologue audio only,,,,,
@@ -17,8 +17,8 @@ B_SQ201,,SQ201_Light_Rock1,2,Loop,0,0
 B_SQ201,,SQ201_Light_Rock2,2,Loop,0,0
 B_VQ201,M1 { ENABLE } Hexagonal Light Bloom w/ Boombox,,,,,
 C_SQ201,M1 Loop Drone 1,SQ201_Voice_Drone1,2,Loop,100,3
-C_VQ201,M1 { ENABLE } Collage ,C_VQ201_COLLAGE_PREVIEW_37SEC,,Hold at end,,
-C_VQ201.1,M12 { DISABLE } Collage,C_VQ201_COLLAGE_PREVIEW_37SEC,,2sec fade out,,
+C_VQ201,M1 { ENABLE } Collage C_VQ201_COLLAGE_PREVIEW_37SEC,,,Hold at end,,
+C_VQ201.1,M12 { DISABLE } Collage C_VQ201_COLLAGE_PREVIEW_37SEC,,,2sec fade out,,
 B_VQ201.1,M5 { ENABLE } Blue Butterflies,,,,,
 B_VQ201.2,M9 { ENABLE } Bee Swarm,,,,,
 A_SQ202,Volume down on pop and up on bridge,SQ201_Hustle_Pop,2,Hold,0,0
@@ -164,7 +164,7 @@ A_SQ501,,,,,,
 B_SQ501,M1 Trigger Shadow Fight,SQ501_Light_Shadow2,2,Loop,100,0
 B_VQ501,{ CALLFUNCTION } Shadow all particle layers,,,,,
 B_VQ502,{ CALLFUNCTION } Effect mod (placeholder),,,,,
-B_VQ503,{ CALLFUNCTION } Effect mod (placeholder),,,,,
+B_VQ503,The MUSICIAN tries to battle the SHADOW. ,,,,,
 B_VQ504,{ CALLFUNCTION } Effect mod (placeholder - GO NUTS),,,,,
 C_SQ501,,,,,,
 B_VQ501,MTK { CALLFUNCTION } Shadow grows in amplitude/reactivity - ADD white lines - data - red lines,,,,,
@@ -285,3 +285,15 @@ B_VQ901,{ CALLFUNCTION } Crown lowers for performer,,,,,
 A_SQ902,,,,,,
 B_SQ902,Fade and stop loop,SQ901_Dear_Life,2,Stop,0,5
 C_SQ902,,,,,,
+B_VQ503.11,SHADOW ATTACK 1 ,,,{FUNCTION}[]<>,,
+B_VQ503.12,SHADOW HIT + IDLE BREAK ,,,{FUNCTION}[]<>,,
+B_VQ503.13,SHADOW ATTACK 2,,,{FUNCTION}[]<>,,
+B_VQ503.13,SHADOW HIT + IDLE BREAK (LOOP),,,{FUNCTION}[]<>,,
+B_VQ2101,Repeat 301 Shadow system; Shadow appears IN FRONT of Communion; keep Communion Joans active; stretch Communion light onto bodies.,,,,,
+B_VQ2102,Repeat 501 Shadow jump — position 1; continue Communion reactivity/light on Joans.,,,,,
+B_VQ2103,Repeat 501 Shadow jump — position 2; continue Communion reactivity/light on Joans.,,,,,
+B_VQ2104,Repeat 501 Shadow jump — position 3; continue Communion reactivity/light on Joans.,,,,,
+B_VQ2104,Repeat 501 Shadow jump — position 4; continue Communion reactivity/light on Joans.,,,,,
+B_VQ2105,Repeat 501 Shadow jump — position 5; continue Communion reactivity/light on Joans; light trails pull toward center if feasible.,,,,,
+B_VQ3101 ,Repeat 601 Shadow dissolve; Communion light leaves 5x Joans → attracts to center; converge into single central light figure.,,,,,
+B_VQ3105,Real Joan moves forward into centralized Communion light; keep light responsive.,,,,,
