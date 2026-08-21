@@ -1,5 +1,5 @@
 BaseUrl,https://raw.githubusercontent.com/your-org/your-repo/main/audio,,,,,
-CsvVersion,18,,,,,
+CsvVersion,19,,,,,
 CueId,Notes,StemFileName,Version,Action,Volume,Speed
 STOP_ALL,Kill everything,,,StopAll,,2
 A_SQ001,Prologue audio only,,,,,
@@ -406,9 +406,9 @@ A_SQ902,,,,,,
 B_SQ902,Fade and stop loop,SQ901_Dear_Life,2,Stop,0,5
 C_SQ902,,,,,,
 B_VQ503.11,SHADOW ATTACK 1 ,,,{FUNCTION}[]<>,,
-B_VQ503.12,SHADOW HIT + IDLE BREAK ,,,{FUNCTION}[]<>,,
+B_VQ503.12,DEATH IMPACT -> IDLE BREAK,,,{FUNCTION}[]<>,,
 B_VQ503.13,SHADOW ATTACK 2,,,{FUNCTION}[]<>,,
-B_VQ503.13,SHADOW HIT + IDLE BREAK (LOOP),,,{FUNCTION}[]<>,,
+B_VQ503.14,DEATH IMPACT -> IDLE BREAK (LOOP),,,{FUNCTION}[]<>,,
 B_VQ2101,Repeat 301 Shadow system; Shadow appears IN FRONT of Communion; keep Communion Joans active; stretch Communion light onto bodies.,,,,,
 B_VQ2102,Repeat 501 Shadow jump — position 1; continue Communion reactivity/light on Joans.,,,,,
 B_VQ2103,Repeat 501 Shadow jump — position 2; continue Communion reactivity/light on Joans.,,,,,
