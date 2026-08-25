@@ -1,5 +1,5 @@
 BaseUrl,https://raw.githubusercontent.com/your-org/your-repo/main/audio,,,,,
-CsvVersion,22,,,,,
+CsvVersion,23,,,,,
 CueId,Notes,StemFileName,Version,Action,Volume,Speed
 STOP_ALL,Kill everything,,,StopAll,,2
 A_SQ001,Prologue audio only,,,,,
@@ -164,9 +164,8 @@ A_SQ501,,,,,,
 B_SQ501,M1 Trigger Shadow Fight,SQ501_Light_Shadow2,2,Loop,100,0
 B_VQ501,{ CALLFUNCTION } Shadow all particle layers,,,,,
 B_VQ502,{ CALLFUNCTION } Effect mod (placeholder),,,,,
-B_VQ503,The MUSICIAN tries to battle the SHADOW. ,SQ501_Light_Shadow2,2,Stop,0,3
-B_VQ503,,SQ2201_LightVoiceReal_Shadow1,1,Loop,100,3
-B_VQ504,{ CALLFUNCTION } Effect mod (placeholder - GO NUTS),SQ504_ShadowGoNuts,1,OneShot,100,0
+B_VQ503,The MUSICIAN tries to battle the SHADOW. ,SQ2201_LightVoiceReal_Shadow1,1,Loop,100,3
+B_VQ504,{ CALLFUNCTION } Effect mod (placeholder - GO NUTS),SQ504_ShadowGoNuts,1,Loop,100,0
 C_SQ501,,,,,,
 B_VQ501,MTK { CALLFUNCTION } Shadow grows in amplitude/reactivity - ADD white lines - data - red lines,,,,,
 B_VQ501.1,{ CALLFUNCTION } randomize position,,,,,
@@ -176,7 +175,8 @@ B_VQ501.13,{ CALLFUNCTION } randomize position,,,,,
 B_VQ501.14,{ CALLFUNCTION } randomize position,,,,,
 B_VQ501.15,{ CALLFUNCTION } randomize position,,,,,
 A_SQ601,,,,,,
-B_SQ601,M1 Trigger Communion Audio,SQ601_CommunionAria_Ground,2,OneShot,100,0
+B_SQ601,M1 Trigger Communion Audio,SQ504_ShadowGoNuts,1,Stop,0,3
+B_SQ601,,SQ601_CommunionAria_Ground,2,OneShot,100,0
 B_SQ601,,SQ601_CommunionAria_Hustle,2,OneShot,100,0
 B_SQ601,,SQ601_CommunionAria_Light,2,OneShot,100,0
 B_SQ601,,SQ601_CommunionAria_Real,2,OneShot,100,0
