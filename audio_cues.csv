@@ -1,5 +1,5 @@
 BaseUrl,https://raw.githubusercontent.com/your-org/your-repo/main/audio,,,,,
-CsvVersion,24,,,,,
+CsvVersion,25,,,,,
 CueId,Notes,StemFileName,Version,Action,Volume,Speed
 STOP_ALL,Kill everything,,,StopAll,,2
 A_SQ001,Prologue audio only,,,,,
@@ -187,7 +187,7 @@ B_SQ601.5,{ ENABLE } VQ: Add 'Hustle' Figure,SQ601.5_CommunionStab_Hustle,2,OneS
 B_SQ601.5,{ ENABLE } VQ: Add  'Light' Figure,SQ601.5_CommunionStab_Light,2,OneShot,100,0
 B_SQ601.5,{ ENABLE } VQ: Add 'Real' Figure,SQ601.5_CommunionStab_Real,2,OneShot,100,0
 B_SQ601.5,{ ENABLE } VQ: Add  'Voice' Figure,SQ601.5_CommunionStab_Voice,2,OneShot,100,0
-B_SQ601.5,,SQ501_Light_Shadow2,2,Stop,0,3
+B_SQ601.5,,SQ501_Light_Shadow2,2,Stop,0,20
 C_SQ601.5,{ ENABLE } VQ: Add  'Ground' Figure,,,,,
 B_SQ601.5,{ ENABLE } VQ: Enable Communion Reveal,,,,,
 B_VQ602,{ CALLFUNCTION } Full Communion Rotation,,,,,
