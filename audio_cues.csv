@@ -1,5 +1,5 @@
 BaseUrl,https://raw.githubusercontent.com/your-org/your-repo/main/audio,,,,,
-CsvVersion,21,,,,,
+CsvVersion,22,,,,,
 CueId,Notes,StemFileName,Version,Action,Volume,Speed
 STOP_ALL,Kill everything,,,StopAll,,2
 A_SQ001,Prologue audio only,,,,,
@@ -166,7 +166,7 @@ B_VQ501,{ CALLFUNCTION } Shadow all particle layers,,,,,
 B_VQ502,{ CALLFUNCTION } Effect mod (placeholder),,,,,
 B_VQ503,The MUSICIAN tries to battle the SHADOW. ,SQ501_Light_Shadow2,2,Stop,0,3
 B_VQ503,,SQ2201_LightVoiceReal_Shadow1,1,Loop,100,3
-B_VQ504,{ CALLFUNCTION } Effect mod (placeholder - GO NUTS),SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0
+B_VQ504,{ CALLFUNCTION } Effect mod (placeholder - GO NUTS),SQ504_ShadowGoNuts,1,OneShot,100,0
 C_SQ501,,,,,,
 B_VQ501,MTK { CALLFUNCTION } Shadow grows in amplitude/reactivity - ADD white lines - data - red lines,,,,,
 B_VQ501.1,{ CALLFUNCTION } randomize position,,,,,
@@ -411,6 +411,16 @@ B_VQ503.12,DEATH IMPACT -> IDLE BREAK,SQ2201_LightVoiceReal_Shadow3,1,OneShot,10
 B_VQ503.13,SHADOW ATTACK 2,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0
 B_VQ503.14,DEATH IMPACT -> IDLE BREAK (LOOP),SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0
 B_VQ503.14,,SQ2201_LightVoiceReal_Shadow1,1,Stop,0,3
+B_SQ2100.91,HustleGroundCommunion1,2101_HustleGroundCommunion1,1,Loop,100,3
+B_SQ2100.92,HustleGroundCommunion2,2101_HustleGroundCommunion1,1,Stop,0,2
+B_SQ2100.92,,2101_HustleGroundCommunion2,1,Loop,100,2
+B_SQ2100.93,HustleGroundCommunion3,2101_HustleGroundCommunion3,1,Loop,100,2
+B_SQ2100.93,,2101_HustleGroundCommunion2,1,Stop,0,2
+B_SQ2100.94,Fade HustleGroundCommunion3,2101_HustleGroundCommunion3,1,Stop,0,5
+B_SQ2100.95,LightVoiceCommunion1,2101_LightVoiceCommunion1,1,Loop,100,3
+B_SQ2100.96,Fade LightVoiceCommunion1,2101_LightVoiceCommunion1,1,Stop,0,5
+B_SQ2100.97,LightVoiceCommunion2,2101_LightVoiceCommunion2,1,Loop,100,3
+B_SQ2100.98,Fade LightVoiceCommunion2,2101_LightVoiceCommunion2,1,Stop,0,5
 B_VQ2101,Repeat 301 Shadow system; Shadow appears IN FRONT of Communion; keep Communion Joans active; stretch Communion light onto bodies.,,,,,
 B_VQ2102,Repeat 501 Shadow jump — position 1; continue Communion reactivity/light on Joans.,,,,,
 B_VQ2103,Repeat 501 Shadow jump — position 2; continue Communion reactivity/light on Joans.,,,,,
