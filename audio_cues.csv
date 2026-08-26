@@ -140,12 +140,12 @@ B_VQ501.13,{ CALLFUNCTION } randomize position,,,,,
 B_VQ501.14,{ CALLFUNCTION } randomize position,,,,,
 B_VQ501.15,{ CALLFUNCTION } randomize position,,,,,
 B_VQ502,{ CALLFUNCTION } Effect mod (placeholder),,,,,
-B_VQ503,The MUSICIAN tries to battle the SHADOW. ,SQ2201_LightVoiceReal_Shadow1,1,Loop,100,3,Light;Voice;Real
-B_VQ503.11,SHADOW ATTACK 1 ,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0,Light;Voice;Real
-B_VQ503.12,DEATH IMPACT -> IDLE BREAK,SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0,Light;Voice;Real
-B_VQ503.13,SHADOW ATTACK 2,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0,Light;Voice;Real
-B_VQ503.14,DEATH IMPACT -> IDLE BREAK (LOOP),SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0,Light;Voice;Real
-B_VQ503.14,,SQ2201_LightVoiceReal_Shadow1,1,Stop,0,3,Light;Voice;Real
+B_VQ503,The MUSICIAN tries to battle the SHADOW. ,SQ2201_LightVoiceReal_Shadow1,1,Loop,100,3
+B_VQ503.11,SHADOW ATTACK 1 ,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0
+B_VQ503.12,DEATH IMPACT -> IDLE BREAK,SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0
+B_VQ503.13,SHADOW ATTACK 2,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0
+B_VQ503.14,DEATH IMPACT -> IDLE BREAK (LOOP),SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0
+B_VQ503.14,,SQ2201_LightVoiceReal_Shadow1,1,Stop,0,3
 B_VQ504,{ CALLFUNCTION } Effect mod (placeholder - GO NUTS),SQ504_ShadowGoNuts,1,Loop,100,0
 
 B_SQ601,M1 Trigger Communion Audio,SQ504_ShadowGoNuts,1,Stop,0,3
@@ -350,19 +350,19 @@ B_SQ2100.97,LightVoiceCommunion2,2101_LightVoiceCommunion2,1,Loop,100,3,Light;Vo
 B_SQ2100.98,Fade LightVoiceCommunion2,2101_LightVoiceCommunion2,1,Stop,0,5,Light;Voice
 
 B_VQ2101,Repeat 301 Shadow system; Shadow appears IN FRONT of Communion; keep Communion Joans active; stretch Communion light onto bodies.,,,,,
-B_VQ2101,Shadow comes in,SQ2201_LightVoiceReal_Shadow1,1,Loop,100,0,Light;Voice;Real
+B_VQ2101,Shadow comes in,SQ2201_LightVoiceReal_Shadow1,1,Loop,100,0
 B_VQ2102,Repeat 501 Shadow jump — position 1; continue Communion reactivity/light on Joans.,,,,,
-B_VQ2102,Shadow jump,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0,Light;Voice;Real
+B_VQ2102,Shadow jump,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0
 B_VQ2103,Repeat 501 Shadow jump — position 2; continue Communion reactivity/light on Joans.,,,,,
-B_VQ2103,Shadow jump,SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0,Light;Voice;Real
+B_VQ2103,Shadow jump,SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0
 B_VQ2104,Repeat 501 Shadow jump — position 3; continue Communion reactivity/light on Joans.,,,,,
 B_VQ2104,Repeat 501 Shadow jump — position 4; continue Communion reactivity/light on Joans.,,,,,
-B_VQ2104,Shadow jump,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0,Light;Voice;Real
+B_VQ2104,Shadow jump,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0
 B_VQ2105,Repeat 501 Shadow jump — position 5; continue Communion reactivity/light on Joans; light trails pull toward center if feasible.,,,,,
-B_VQ2105,Shadow jump,SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0,Light;Voice;Real
+B_VQ2105,Shadow jump,SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0
 B_VQ3101 ,Repeat 601 Shadow dissolve; Communion light leaves 5x Joans → attracts to center; converge into single central light figure. (Shadow dissolve part),,,,,
 B_VQ3105,Real Joan moves forward into centralized Communion light; keep light responsive.,,,,,
-B_VQ3105,Stop 2101,SQ2201_LightVoiceReal_Shadow1,1,Stop,0,3,Light;Voice;Real
+B_VQ3105,Stop 2101,SQ2201_LightVoiceReal_Shadow1,1,Stop,0,3
 
 C_SQ001,Prologue audio only,,,,,
 C_SQ101,Scene 1,,,,,
