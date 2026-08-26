@@ -1,5 +1,5 @@
 BaseUrl,https://raw.githubusercontent.com/your-org/your-repo/main/audio,,,,,
-CsvVersion,26,,,,,
+CsvVersion,27,,,,,
 CueId,Notes,StemFileName,Version,Action,Volume,Speed
 STOP_ALL,Kill everything,,,StopAll,,2
 A_SQ001,Prologue audio only,,,,,
@@ -421,10 +421,16 @@ B_SQ2100.96,Fade LightVoiceCommunion1,2101_LightVoiceCommunion1,1,Stop,0,5
 B_SQ2100.97,LightVoiceCommunion2,2101_LightVoiceCommunion2,1,Loop,100,3
 B_SQ2100.98,Fade LightVoiceCommunion2,2101_LightVoiceCommunion2,1,Stop,0,5
 B_VQ2101,Repeat 301 Shadow system; Shadow appears IN FRONT of Communion; keep Communion Joans active; stretch Communion light onto bodies.,,,,,
+B_VQ2101,Shadow comes in,SQ2201_LightVoiceReal_Shadow1,1,Loop,100,0
 B_VQ2102,Repeat 501 Shadow jump — position 1; continue Communion reactivity/light on Joans.,,,,,
+B_VQ2102,Shadow jump,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0
 B_VQ2103,Repeat 501 Shadow jump — position 2; continue Communion reactivity/light on Joans.,,,,,
+B_VQ2103,Shadow jump,SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0
 B_VQ2104,Repeat 501 Shadow jump — position 3; continue Communion reactivity/light on Joans.,,,,,
 B_VQ2104,Repeat 501 Shadow jump — position 4; continue Communion reactivity/light on Joans.,,,,,
+B_VQ2104,Shadow jump,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0
 B_VQ2105,Repeat 501 Shadow jump — position 5; continue Communion reactivity/light on Joans; light trails pull toward center if feasible.,,,,,
-B_VQ3101 ,Repeat 601 Shadow dissolve; Communion light leaves 5x Joans → attracts to center; converge into single central light figure.,,,,,
+B_VQ2105,Shadow jump,SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0
+B_VQ3101 ,Repeat 601 Shadow dissolve; Communion light leaves 5x Joans → attracts to center; converge into single central light figure. (Shadow dissolve part),,,,,
 B_VQ3105,Real Joan moves forward into centralized Communion light; keep light responsive.,,,,,
+B_VQ3105,Stop 2101,SQ2201_LightVoiceReal_Shadow1,1,Stop,0,3
