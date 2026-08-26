@@ -1,5 +1,5 @@
 BaseUrl,https://raw.githubusercontent.com/your-org/your-repo/main/audio,,,,,
-CsvVersion,25,,,,,
+CsvVersion,26,,,,,
 CueId,Notes,StemFileName,Version,Action,Volume,Speed
 STOP_ALL,Kill everything,,,StopAll,,2
 A_SQ001,Prologue audio only,,,,,
@@ -182,11 +182,11 @@ B_SQ601,,SQ601_CommunionAria_Light,2,OneShot,100,0
 B_SQ601,,SQ601_CommunionAria_Real,2,OneShot,100,0
 B_SQ601,,SQ601_CommunionAria_Voice,2,OneShot,100,0
 B_VQ601,{ ENABLE } Communion Scene,,,,,
-B_SQ601.5,M1 Trigger Communion Stab - Ripples descend,SQ601.5_CommunionStab_Ground,2,OneShot,100,0
-B_SQ601.5,{ ENABLE } VQ: Add 'Hustle' Figure,SQ601.5_CommunionStab_Hustle,2,OneShot,100,0
-B_SQ601.5,{ ENABLE } VQ: Add  'Light' Figure,SQ601.5_CommunionStab_Light,2,OneShot,100,0
-B_SQ601.5,{ ENABLE } VQ: Add 'Real' Figure,SQ601.5_CommunionStab_Real,2,OneShot,100,0
-B_SQ601.5,{ ENABLE } VQ: Add  'Voice' Figure,SQ601.5_CommunionStab_Voice,2,OneShot,100,0
+B_SQ601.5,M1 Trigger Communion Stab - Ripples descend,SQ601.5_CommunionStabAug_Ground,1,OneShot,100,0
+B_SQ601.5,{ ENABLE } VQ: Add 'Hustle' Figure,SQ601.5_CommunionStabAug_Hustle,1,OneShot,100,0
+B_SQ601.5,{ ENABLE } VQ: Add  'Light' Figure,SQ601.5_CommunionStabAug_Light,1,OneShot,100,0
+B_SQ601.5,{ ENABLE } VQ: Add 'Real' Figure,SQ601.5_CommunionStabAug_Real,1,OneShot,100,0
+B_SQ601.5,{ ENABLE } VQ: Add  'Voice' Figure,SQ601.5_CommunionStabAug_Voice,1,OneShot,100,0
 B_SQ601.5,,SQ501_Light_Shadow2,2,Stop,0,20
 C_SQ601.5,{ ENABLE } VQ: Add  'Ground' Figure,,,,,
 B_SQ601.5,{ ENABLE } VQ: Enable Communion Reveal,,,,,
