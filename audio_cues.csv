@@ -1,6 +1,6 @@
 BaseUrl,https://raw.githubusercontent.com/your-org/your-repo/main/audio,,,,,
 CsvVersion,27,,,,,
-CueId,Notes,StemFileName,Version,Action,Volume,Speed
+CueId,Notes,StemFileName,Version,Action,Volume,Speed,Joan
 A_SQ001,Prologue audio only,,,,,
 A_SQ101,Scene 1,,,,,
 A_SQ201,Loop pop bridge and synth,SQ201_Hustle_Pop,2,Loop,100,0
@@ -140,12 +140,12 @@ B_VQ501.13,{ CALLFUNCTION } randomize position,,,,,
 B_VQ501.14,{ CALLFUNCTION } randomize position,,,,,
 B_VQ501.15,{ CALLFUNCTION } randomize position,,,,,
 B_VQ502,{ CALLFUNCTION } Effect mod (placeholder),,,,,
-B_VQ503,The MUSICIAN tries to battle the SHADOW. ,SQ2201_LightVoiceReal_Shadow1,1,Loop,100,3
-B_VQ503.11,SHADOW ATTACK 1 ,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0
-B_VQ503.12,DEATH IMPACT -> IDLE BREAK,SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0
-B_VQ503.13,SHADOW ATTACK 2,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0
-B_VQ503.14,DEATH IMPACT -> IDLE BREAK (LOOP),SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0
-B_VQ503.14,,SQ2201_LightVoiceReal_Shadow1,1,Stop,0,3
+B_VQ503,The MUSICIAN tries to battle the SHADOW. ,SQ2201_LightVoiceReal_Shadow1,1,Loop,100,3,Light;Voice;Real
+B_VQ503.11,SHADOW ATTACK 1 ,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0,Light;Voice;Real
+B_VQ503.12,DEATH IMPACT -> IDLE BREAK,SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0,Light;Voice;Real
+B_VQ503.13,SHADOW ATTACK 2,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0,Light;Voice;Real
+B_VQ503.14,DEATH IMPACT -> IDLE BREAK (LOOP),SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0,Light;Voice;Real
+B_VQ503.14,,SQ2201_LightVoiceReal_Shadow1,1,Stop,0,3,Light;Voice;Real
 B_VQ504,{ CALLFUNCTION } Effect mod (placeholder - GO NUTS),SQ504_ShadowGoNuts,1,Loop,100,0
 
 B_SQ601,M1 Trigger Communion Audio,SQ504_ShadowGoNuts,1,Stop,0,3
@@ -173,162 +173,162 @@ B_VQ602,,SQ701_How_Long_Chord_1_Real,2,Loop,100,2
 B_VQ701,{ CALLFUNCTION } Increase in reactivity/frequency,,,,,
 B_VQ701.1,{DISABLE} Shadow,,,,,
 
-B_SQ702,Cross-fade between chords,SQ701_How_Long_Chord_1_Light,2,Stop,0,2
-B_SQ702,,SQ701_How_Long_Chord_1_Ground,2,Stop,0,2
-B_SQ702,,SQ701_How_Long_Chord_1_Hustle,2,Stop,0,2
-B_SQ702,,SQ701_How_Long_Chord_1_Real,2,Stop,0,2
-B_SQ702,,SQ702_How_Long_Chord_2_Light,2,Loop,100,2
-B_SQ702,,SQ701_How_Long_Chord_2_Ground,2,Loop,100,2
-B_SQ702,,SQ701_How_Long_Chord_2_Hustle,2,Loop,100,2
-B_SQ702,,SQ701_How_Long_Chord_2_Real,2,Loop,100,2
-B_SQ703,Cross-fade between chords,SQ703_How_Long_Chord_3_Light,2,Loop,100,2
-B_SQ703,,SQ701_How_Long_Chord_3_Ground,2,Loop,100,2
-B_SQ703,,SQ701_How_Long_Chord_3_Hustle,2,Loop,100,2
-B_SQ703,,SQ701_How_Long_Chord_3_Real,2,Loop,100,2
-B_SQ703,,SQ702_How_Long_Chord_2_Light,2,Hold,0,2
-B_SQ703,,SQ701_How_Long_Chord_2_Ground,2,Hold,0,2
-B_SQ703,,SQ701_How_Long_Chord_2_Hustle,2,Hold,0,2
-B_SQ703,,SQ701_How_Long_Chord_2_Real,2,Hold,0,2
-B_SQ704,Cross-fade between chords,SQ703_How_Long_Chord_3_Light,2,Hold,0,2
-B_SQ704,,SQ701_How_Long_Chord_3_Ground,2,Hold,0,2
-B_SQ704,,SQ701_How_Long_Chord_3_Hustle,2,Hold,0,2
-B_SQ704,,SQ701_How_Long_Chord_3_Real,2,Hold,0,2
-B_SQ704,,SQ704_How_Long_Chord_4_Light,2,Loop,100,2
-B_SQ704,,SQ701_How_Long_Chord_4_Ground,2,Loop,100,2
-B_SQ704,,SQ701_How_Long_Chord_4_Hustle,2,Loop,100,2
-B_SQ704,,SQ701_How_Long_Chord_4_Real,2,Loop,100,2
-B_SQ705,Cross-fade between chords,SQ705_How_Long_Chord_5_Light,2,Loop,100,2
-B_SQ705,,SQ701_How_Long_Chord_5_Ground,2,Loop,100,2
-B_SQ705,,SQ701_How_Long_Chord_5_Hustle,2,Loop,100,2
-B_SQ705,,SQ701_How_Long_Chord_5_Real,2,Loop,100,2
-B_SQ705,,SQ704_How_Long_Chord_4_Light,2,Stop,0,2
-B_SQ705,,SQ701_How_Long_Chord_4_Ground,2,Stop,0,2
-B_SQ705,,SQ701_How_Long_Chord_4_Hustle,2,Stop,0,2
-B_SQ705,,SQ701_How_Long_Chord_4_Real,2,Stop,0,2
-B_SQ706,Cross-fade between chords,SQ705_How_Long_Chord_5_Light,2,Hold,0,2
-B_SQ706,,SQ701_How_Long_Chord_5_Ground,2,Hold,0,2
-B_SQ706,,SQ701_How_Long_Chord_5_Hustle,2,Hold,0,2
-B_SQ706,,SQ701_How_Long_Chord_5_Real,2,Hold,0,2
-B_SQ706,,SQ703_How_Long_Chord_3_Light,2,Hold,100,2
-B_SQ706,,SQ701_How_Long_Chord_3_Ground,2,Hold,100,2
-B_SQ706,,SQ701_How_Long_Chord_3_Hustle,2,Hold,100,2
-B_SQ706,,SQ701_How_Long_Chord_3_Real,2,Hold,100,2
-B_SQ707,Cross-fade between chords,SQ705_How_Long_Chord_5_Light,2,Hold,100,2
-B_SQ707,,SQ701_How_Long_Chord_5_Ground,2,Hold,100,2
-B_SQ707,,SQ701_How_Long_Chord_5_Hustle,2,Hold,100,2
-B_SQ707,,SQ701_How_Long_Chord_5_Real,2,Hold,100,2
-B_SQ707,,SQ703_How_Long_Chord_3_Light,2,Hold,0,2
-B_SQ707,,SQ701_How_Long_Chord_3_Ground,2,Hold,0,2
-B_SQ707,,SQ701_How_Long_Chord_3_Hustle,2,Hold,0,2
-B_SQ707,,SQ701_How_Long_Chord_3_Real,2,Hold,0,2
-B_SQ708,Cross-fade between chords,SQ705_How_Long_Chord_5_Light,2,Hold,0,2
-B_SQ708,,SQ701_How_Long_Chord_5_Ground,2,Hold,0,2
-B_SQ708,,SQ701_How_Long_Chord_5_Hustle,2,Hold,0,2
-B_SQ708,,SQ701_How_Long_Chord_5_Real,2,Hold,0,2
-B_SQ708,,SQ703_How_Long_Chord_3_Light,2,Hold,100,2
-B_SQ708,,SQ701_How_Long_Chord_3_Ground,2,Hold,100,2
-B_SQ708,,SQ701_How_Long_Chord_3_Hustle,2,Hold,100,2
-B_SQ708,,SQ701_How_Long_Chord_3_Real,2,Hold,100,2
-B_SQ709,Cross-fade between chords,SQ705_How_Long_Chord_5_Light,2,Hold,100,2
-B_SQ709,,SQ701_How_Long_Chord_5_Ground,2,Hold,100,2
-B_SQ709,,SQ701_How_Long_Chord_5_Hustle,2,Hold,100,2
-B_SQ709,,SQ701_How_Long_Chord_5_Real,2,Hold,100,2
-B_SQ709,,SQ703_How_Long_Chord_3_Light,2,Hold,0,2
-B_SQ709,,SQ701_How_Long_Chord_3_Ground,2,Hold,0,2
-B_SQ709,,SQ701_How_Long_Chord_3_Hustle,2,Hold,0,2
-B_SQ709,,SQ701_How_Long_Chord_3_Real,2,Hold,0,2
-B_SQ710,Cross-fade between chords,SQ705_How_Long_Chord_5_Light,2,Stop,0,2
-B_SQ710,,SQ701_How_Long_Chord_5_Ground,2,Stop,0,2
-B_SQ710,,SQ701_How_Long_Chord_5_Hustle,2,Stop,0,2
-B_SQ710,,SQ701_How_Long_Chord_5_Real,2,Stop,0,2
-B_SQ710,,SQ703_How_Long_Chord_3_Light,2,Hold,100,2
-B_SQ710,,SQ701_How_Long_Chord_3_Ground,2,Hold,100,2
-B_SQ710,,SQ701_How_Long_Chord_3_Hustle,2,Hold,100,2
-B_SQ710,,SQ701_How_Long_Chord_3_Real,2,Hold,100,2
-B_SQ711,Cross-fade between chords,SQ706_How_Long_Chord_6_Light,2,Loop,100,2
-B_SQ711,,SQ701_How_Long_Chord_6_Ground,2,Loop,100,2
-B_SQ711,,SQ701_How_Long_Chord_6_Hustle,2,Loop,100,2
-B_SQ711,,SQ701_How_Long_Chord_6_Real,2,Loop,100,2
-B_SQ711,,SQ703_How_Long_Chord_3_Light,2,Stop,0,2
-B_SQ711,,SQ701_How_Long_Chord_3_Ground,2,Stop,0,2
-B_SQ711,,SQ701_How_Long_Chord_3_Hustle,2,Stop,0,2
-B_SQ711,,SQ701_How_Long_Chord_3_Real,2,Stop,0,2
-B_SQ712,Cross-fade between chords,SQ706_How_Long_Chord_6_Light,2,Hold,0,2
-B_SQ712,,SQ701_How_Long_Chord_6_Ground,2,Hold,0,2
-B_SQ712,,SQ701_How_Long_Chord_6_Hustle,2,Hold,0,2
-B_SQ712,,SQ701_How_Long_Chord_6_Real,2,Hold,0,2
-B_SQ712,,SQ702_How_Long_Chord_2_Light,2,Hold,100,2
-B_SQ712,,SQ701_How_Long_Chord_2_Ground,2,Hold,100,2
-B_SQ712,,SQ701_How_Long_Chord_2_Hustle,2,Hold,100,2
-B_SQ712,,SQ701_How_Long_Chord_2_Real,2,Hold,100,2
-B_SQ713,Cross-fade between chords,SQ706_How_Long_Chord_6_Light,2,Hold,100,2
-B_SQ713,,SQ701_How_Long_Chord_6_Ground,2,Hold,100,2
-B_SQ713,,SQ701_How_Long_Chord_6_Hustle,2,Hold,100,2
-B_SQ713,,SQ701_How_Long_Chord_6_Real,2,Hold,100,2
-B_SQ713,,SQ702_How_Long_Chord_2_Light,2,Hold,0,2
-B_SQ713,,SQ701_How_Long_Chord_2_Ground,2,Hold,0,2
-B_SQ713,,SQ701_How_Long_Chord_2_Hustle,2,Hold,0,2
-B_SQ713,,SQ701_How_Long_Chord_2_Real,2,Hold,0,2
-B_SQ714,Cross-fade between chords,SQ706_How_Long_Chord_6_Light,2,Hold,0,2
-B_SQ714,,SQ701_How_Long_Chord_6_Ground,2,Hold,0,2
-B_SQ714,,SQ701_How_Long_Chord_6_Hustle,2,Hold,0,2
-B_SQ714,,SQ701_How_Long_Chord_6_Real,2,Hold,0,2
-B_SQ714,,SQ702_How_Long_Chord_2_Light,2,Hold,100,2
-B_SQ714,,SQ701_How_Long_Chord_2_Ground,2,Hold,100,2
-B_SQ714,,SQ701_How_Long_Chord_2_Hustle,2,Hold,100,2
-B_SQ714,,SQ701_How_Long_Chord_2_Real,2,Hold,100,2
-B_SQ715,Cross-fade between chords,SQ706_How_Long_Chord_6_Light,2,Hold,100,2
-B_SQ715,,SQ701_How_Long_Chord_6_Ground,2,Hold,100,2
-B_SQ715,,SQ701_How_Long_Chord_6_Hustle,2,Hold,100,2
-B_SQ715,,SQ701_How_Long_Chord_6_Real,2,Hold,100,2
-B_SQ715,,SQ702_How_Long_Chord_2_Light,2,Hold,0,2
-B_SQ715,,SQ701_How_Long_Chord_2_Ground,2,Hold,0,2
-B_SQ715,,SQ701_How_Long_Chord_2_Hustle,2,Hold,0,2
-B_SQ715,,SQ701_How_Long_Chord_2_Real,2,Hold,0,2
-B_SQ716,Cross-fade between chords,SQ706_How_Long_Chord_6_Light,2,Hold,0,2
-B_SQ716,,SQ701_How_Long_Chord_6_Ground,2,Hold,0,2
-B_SQ716,,SQ701_How_Long_Chord_6_Hustle,2,Hold,0,2
-B_SQ716,,SQ701_How_Long_Chord_6_Real,2,Hold,0,2
-B_SQ716,,SQ702_How_Long_Chord_2_Light,2,Hold,100,2
-B_SQ716,,SQ701_How_Long_Chord_2_Ground,2,Hold,100,2
-B_SQ716,,SQ701_How_Long_Chord_2_Hustle,2,Hold,100,2
-B_SQ716,,SQ701_How_Long_Chord_2_Real,2,Hold,100,2
-B_SQ717,Cross-fade between chords,SQ706_How_Long_Chord_6_Light,2,Hold,100,2
-B_SQ717,,SQ701_How_Long_Chord_6_Ground,2,Hold,100,2
-B_SQ717,,SQ701_How_Long_Chord_6_Hustle,2,Hold,100,2
-B_SQ717,,SQ701_How_Long_Chord_6_Real,2,Hold,100,2
-B_SQ717,,SQ702_How_Long_Chord_2_Light,2,Hold,0,2
-B_SQ717,,SQ701_How_Long_Chord_2_Ground,2,Hold,0,2
-B_SQ717,,SQ701_How_Long_Chord_2_Hustle,2,Hold,0,2
-B_SQ717,,SQ701_How_Long_Chord_2_Real,2,Hold,0,2
-B_SQ718,Cross-fade between chords,SQ706_How_Long_Chord_6_Light,2,Hold,0,2
-B_SQ718,,SQ701_How_Long_Chord_6_Ground,2,Hold,0,2
-B_SQ718,,SQ701_How_Long_Chord_6_Hustle,2,Hold,0,2
-B_SQ718,,SQ701_How_Long_Chord_6_Real,2,Hold,0,2
-B_SQ718,,SQ702_How_Long_Chord_2_Light,2,Hold,100,2
-B_SQ718,,SQ701_How_Long_Chord_2_Ground,2,Hold,100,2
-B_SQ718,,SQ701_How_Long_Chord_2_Hustle,2,Hold,100,2
-B_SQ718,,SQ701_How_Long_Chord_2_Real,2,Hold,100,2
-B_SQ719,Cross-fade between chords,SQ706_How_Long_Chord_6_Light,2,Hold,100,2
-B_SQ719,,SQ701_How_Long_Chord_6_Ground,2,Hold,100,2
-B_SQ719,,SQ701_How_Long_Chord_6_Hustle,2,Hold,100,2
-B_SQ719,,SQ701_How_Long_Chord_6_Real,2,Hold,100,2
-B_SQ719,,SQ702_How_Long_Chord_2_Light,2,Stop,0,2
-B_SQ719,,SQ701_How_Long_Chord_2_Ground,2,Stop,0,2
-B_SQ719,,SQ701_How_Long_Chord_2_Hustle,2,Stop,0,2
-B_SQ719,,SQ701_How_Long_Chord_2_Real,2,Stop,0,2
-B_SQ720,Cross-fade between chords,SQ706_How_Long_Chord_6_Light,2,Stop,0,2
-B_SQ720,,SQ701_How_Long_Chord_6_Ground,2,Stop,0,2
-B_SQ720,,SQ701_How_Long_Chord_6_Hustle,2,Stop,0,2
-B_SQ720,,SQ701_How_Long_Chord_6_Real,2,Stop,0,2
-B_SQ720,,SQ720_How_Long_Chord_7_Light,2,Loop,100,2
-B_SQ720,,SQ701_How_Long_Chord_7_Ground,2,Loop,100,2
-B_SQ720,,SQ701_How_Long_Chord_7_Hustle,2,Loop,100,2
-B_SQ720,,SQ701_How_Long_Chord_7_Real,2,Loop,100,2
-B_SQ721,Fade and stop Chord 7,SQ720_How_Long_Chord_7_Light,2,Stop,0,5
-B_SQ721,,SQ701_How_Long_Chord_7_Ground,2,Stop,0,5
-B_SQ721,,SQ701_How_Long_Chord_7_Hustle,2,Stop,0,5
-B_SQ721,,SQ701_How_Long_Chord_7_Real,2,Stop,0,5
+B_SQ702,Chord 2,SQ701_How_Long_Chord_1_Light,2,Stop,0,2,Light
+B_SQ702,,SQ701_How_Long_Chord_1_Ground,2,Stop,0,2,Ground
+B_SQ702,,SQ701_How_Long_Chord_1_Hustle,2,Stop,0,2,Hustle
+B_SQ702,,SQ701_How_Long_Chord_1_Real,2,Stop,0,2,Real
+B_SQ702,,SQ702_How_Long_Chord_2_Light,2,Loop,100,2,Light
+B_SQ702,,SQ701_How_Long_Chord_2_Ground,2,Loop,100,2,Ground
+B_SQ702,,SQ701_How_Long_Chord_2_Hustle,2,Loop,100,2,Hustle
+B_SQ702,,SQ701_How_Long_Chord_2_Real,2,Loop,100,2,Real
+B_SQ703,Chord 3,SQ703_How_Long_Chord_3_Light,2,Loop,100,2,Light
+B_SQ703,,SQ701_How_Long_Chord_3_Ground,2,Loop,100,2,Ground
+B_SQ703,,SQ701_How_Long_Chord_3_Hustle,2,Loop,100,2,Hustle
+B_SQ703,,SQ701_How_Long_Chord_3_Real,2,Loop,100,2,Real
+B_SQ703,,SQ702_How_Long_Chord_2_Light,2,Hold,0,2,Light
+B_SQ703,,SQ701_How_Long_Chord_2_Ground,2,Hold,0,2,Ground
+B_SQ703,,SQ701_How_Long_Chord_2_Hustle,2,Hold,0,2,Hustle
+B_SQ703,,SQ701_How_Long_Chord_2_Real,2,Hold,0,2,Real
+B_SQ704,Chord 4,SQ703_How_Long_Chord_3_Light,2,Hold,0,2,Light
+B_SQ704,,SQ701_How_Long_Chord_3_Ground,2,Hold,0,2,Ground
+B_SQ704,,SQ701_How_Long_Chord_3_Hustle,2,Hold,0,2,Hustle
+B_SQ704,,SQ701_How_Long_Chord_3_Real,2,Hold,0,2,Real
+B_SQ704,,SQ704_How_Long_Chord_4_Light,2,Loop,100,2,Light
+B_SQ704,,SQ701_How_Long_Chord_4_Ground,2,Loop,100,2,Ground
+B_SQ704,,SQ701_How_Long_Chord_4_Hustle,2,Loop,100,2,Hustle
+B_SQ704,,SQ701_How_Long_Chord_4_Real,2,Loop,100,2,Real
+B_SQ705,Chord 5,SQ705_How_Long_Chord_5_Light,2,Loop,100,2,Light
+B_SQ705,,SQ701_How_Long_Chord_5_Ground,2,Loop,100,2,Ground
+B_SQ705,,SQ701_How_Long_Chord_5_Hustle,2,Loop,100,2,Hustle
+B_SQ705,,SQ701_How_Long_Chord_5_Real,2,Loop,100,2,Real
+B_SQ705,,SQ704_How_Long_Chord_4_Light,2,Stop,0,2,Light
+B_SQ705,,SQ701_How_Long_Chord_4_Ground,2,Stop,0,2,Ground
+B_SQ705,,SQ701_How_Long_Chord_4_Hustle,2,Stop,0,2,Hustle
+B_SQ705,,SQ701_How_Long_Chord_4_Real,2,Stop,0,2,Real
+B_SQ706,Chord 3,SQ705_How_Long_Chord_5_Light,2,Hold,0,2,Light
+B_SQ706,,SQ701_How_Long_Chord_5_Ground,2,Hold,0,2,Ground
+B_SQ706,,SQ701_How_Long_Chord_5_Hustle,2,Hold,0,2,Hustle
+B_SQ706,,SQ701_How_Long_Chord_5_Real,2,Hold,0,2,Real
+B_SQ706,,SQ703_How_Long_Chord_3_Light,2,Hold,100,2,Light
+B_SQ706,,SQ701_How_Long_Chord_3_Ground,2,Hold,100,2,Ground
+B_SQ706,,SQ701_How_Long_Chord_3_Hustle,2,Hold,100,2,Hustle
+B_SQ706,,SQ701_How_Long_Chord_3_Real,2,Hold,100,2,Real
+B_SQ707,Chord 5,SQ705_How_Long_Chord_5_Light,2,Hold,100,2,Light
+B_SQ707,,SQ701_How_Long_Chord_5_Ground,2,Hold,100,2,Ground
+B_SQ707,,SQ701_How_Long_Chord_5_Hustle,2,Hold,100,2,Hustle
+B_SQ707,,SQ701_How_Long_Chord_5_Real,2,Hold,100,2,Real
+B_SQ707,,SQ703_How_Long_Chord_3_Light,2,Hold,0,2,Light
+B_SQ707,,SQ701_How_Long_Chord_3_Ground,2,Hold,0,2,Ground
+B_SQ707,,SQ701_How_Long_Chord_3_Hustle,2,Hold,0,2,Hustle
+B_SQ707,,SQ701_How_Long_Chord_3_Real,2,Hold,0,2,Real
+B_SQ708,Chord 3,SQ705_How_Long_Chord_5_Light,2,Hold,0,2,Light
+B_SQ708,,SQ701_How_Long_Chord_5_Ground,2,Hold,0,2,Ground
+B_SQ708,,SQ701_How_Long_Chord_5_Hustle,2,Hold,0,2,Hustle
+B_SQ708,,SQ701_How_Long_Chord_5_Real,2,Hold,0,2,Real
+B_SQ708,,SQ703_How_Long_Chord_3_Light,2,Hold,100,2,Light
+B_SQ708,,SQ701_How_Long_Chord_3_Ground,2,Hold,100,2,Ground
+B_SQ708,,SQ701_How_Long_Chord_3_Hustle,2,Hold,100,2,Hustle
+B_SQ708,,SQ701_How_Long_Chord_3_Real,2,Hold,100,2,Real
+B_SQ709,Chord 5,SQ705_How_Long_Chord_5_Light,2,Hold,100,2,Light
+B_SQ709,,SQ701_How_Long_Chord_5_Ground,2,Hold,100,2,Ground
+B_SQ709,,SQ701_How_Long_Chord_5_Hustle,2,Hold,100,2,Hustle
+B_SQ709,,SQ701_How_Long_Chord_5_Real,2,Hold,100,2,Real
+B_SQ709,,SQ703_How_Long_Chord_3_Light,2,Hold,0,2,Light
+B_SQ709,,SQ701_How_Long_Chord_3_Ground,2,Hold,0,2,Ground
+B_SQ709,,SQ701_How_Long_Chord_3_Hustle,2,Hold,0,2,Hustle
+B_SQ709,,SQ701_How_Long_Chord_3_Real,2,Hold,0,2,Real
+B_SQ710,Chord 3,SQ705_How_Long_Chord_5_Light,2,Stop,0,2,Light
+B_SQ710,,SQ701_How_Long_Chord_5_Ground,2,Stop,0,2,Ground
+B_SQ710,,SQ701_How_Long_Chord_5_Hustle,2,Stop,0,2,Hustle
+B_SQ710,,SQ701_How_Long_Chord_5_Real,2,Stop,0,2,Real
+B_SQ710,,SQ703_How_Long_Chord_3_Light,2,Hold,100,2,Light
+B_SQ710,,SQ701_How_Long_Chord_3_Ground,2,Hold,100,2,Ground
+B_SQ710,,SQ701_How_Long_Chord_3_Hustle,2,Hold,100,2,Hustle
+B_SQ710,,SQ701_How_Long_Chord_3_Real,2,Hold,100,2,Real
+B_SQ711,Chord 6,SQ706_How_Long_Chord_6_Light,2,Loop,100,2,Light
+B_SQ711,,SQ701_How_Long_Chord_6_Ground,2,Loop,100,2,Ground
+B_SQ711,,SQ701_How_Long_Chord_6_Hustle,2,Loop,100,2,Hustle
+B_SQ711,,SQ701_How_Long_Chord_6_Real,2,Loop,100,2,Real
+B_SQ711,,SQ703_How_Long_Chord_3_Light,2,Stop,0,2,Light
+B_SQ711,,SQ701_How_Long_Chord_3_Ground,2,Stop,0,2,Ground
+B_SQ711,,SQ701_How_Long_Chord_3_Hustle,2,Stop,0,2,Hustle
+B_SQ711,,SQ701_How_Long_Chord_3_Real,2,Stop,0,2,Real
+B_SQ712,Chord 2,SQ706_How_Long_Chord_6_Light,2,Hold,0,2,Light
+B_SQ712,,SQ701_How_Long_Chord_6_Ground,2,Hold,0,2,Ground
+B_SQ712,,SQ701_How_Long_Chord_6_Hustle,2,Hold,0,2,Hustle
+B_SQ712,,SQ701_How_Long_Chord_6_Real,2,Hold,0,2,Real
+B_SQ712,,SQ702_How_Long_Chord_2_Light,2,Hold,100,2,Light
+B_SQ712,,SQ701_How_Long_Chord_2_Ground,2,Hold,100,2,Ground
+B_SQ712,,SQ701_How_Long_Chord_2_Hustle,2,Hold,100,2,Hustle
+B_SQ712,,SQ701_How_Long_Chord_2_Real,2,Hold,100,2,Real
+B_SQ713,Chord 6,SQ706_How_Long_Chord_6_Light,2,Hold,100,2,Light
+B_SQ713,,SQ701_How_Long_Chord_6_Ground,2,Hold,100,2,Ground
+B_SQ713,,SQ701_How_Long_Chord_6_Hustle,2,Hold,100,2,Hustle
+B_SQ713,,SQ701_How_Long_Chord_6_Real,2,Hold,100,2,Real
+B_SQ713,,SQ702_How_Long_Chord_2_Light,2,Hold,0,2,Light
+B_SQ713,,SQ701_How_Long_Chord_2_Ground,2,Hold,0,2,Ground
+B_SQ713,,SQ701_How_Long_Chord_2_Hustle,2,Hold,0,2,Hustle
+B_SQ713,,SQ701_How_Long_Chord_2_Real,2,Hold,0,2,Real
+B_SQ714,Chord 2,SQ706_How_Long_Chord_6_Light,2,Hold,0,2,Light
+B_SQ714,,SQ701_How_Long_Chord_6_Ground,2,Hold,0,2,Ground
+B_SQ714,,SQ701_How_Long_Chord_6_Hustle,2,Hold,0,2,Hustle
+B_SQ714,,SQ701_How_Long_Chord_6_Real,2,Hold,0,2,Real
+B_SQ714,,SQ702_How_Long_Chord_2_Light,2,Hold,100,2,Light
+B_SQ714,,SQ701_How_Long_Chord_2_Ground,2,Hold,100,2,Ground
+B_SQ714,,SQ701_How_Long_Chord_2_Hustle,2,Hold,100,2,Hustle
+B_SQ714,,SQ701_How_Long_Chord_2_Real,2,Hold,100,2,Real
+B_SQ715,Chord 6,SQ706_How_Long_Chord_6_Light,2,Hold,100,2,Light
+B_SQ715,,SQ701_How_Long_Chord_6_Ground,2,Hold,100,2,Ground
+B_SQ715,,SQ701_How_Long_Chord_6_Hustle,2,Hold,100,2,Hustle
+B_SQ715,,SQ701_How_Long_Chord_6_Real,2,Hold,100,2,Real
+B_SQ715,,SQ702_How_Long_Chord_2_Light,2,Hold,0,2,Light
+B_SQ715,,SQ701_How_Long_Chord_2_Ground,2,Hold,0,2,Ground
+B_SQ715,,SQ701_How_Long_Chord_2_Hustle,2,Hold,0,2,Hustle
+B_SQ715,,SQ701_How_Long_Chord_2_Real,2,Hold,0,2,Real
+B_SQ716,Chord 2,SQ706_How_Long_Chord_6_Light,2,Hold,0,2,Light
+B_SQ716,,SQ701_How_Long_Chord_6_Ground,2,Hold,0,2,Ground
+B_SQ716,,SQ701_How_Long_Chord_6_Hustle,2,Hold,0,2,Hustle
+B_SQ716,,SQ701_How_Long_Chord_6_Real,2,Hold,0,2,Real
+B_SQ716,,SQ702_How_Long_Chord_2_Light,2,Hold,100,2,Light
+B_SQ716,,SQ701_How_Long_Chord_2_Ground,2,Hold,100,2,Ground
+B_SQ716,,SQ701_How_Long_Chord_2_Hustle,2,Hold,100,2,Hustle
+B_SQ716,,SQ701_How_Long_Chord_2_Real,2,Hold,100,2,Real
+B_SQ717,Chord 6,SQ706_How_Long_Chord_6_Light,2,Hold,100,2,Light
+B_SQ717,,SQ701_How_Long_Chord_6_Ground,2,Hold,100,2,Ground
+B_SQ717,,SQ701_How_Long_Chord_6_Hustle,2,Hold,100,2,Hustle
+B_SQ717,,SQ701_How_Long_Chord_6_Real,2,Hold,100,2,Real
+B_SQ717,,SQ702_How_Long_Chord_2_Light,2,Hold,0,2,Light
+B_SQ717,,SQ701_How_Long_Chord_2_Ground,2,Hold,0,2,Ground
+B_SQ717,,SQ701_How_Long_Chord_2_Hustle,2,Hold,0,2,Hustle
+B_SQ717,,SQ701_How_Long_Chord_2_Real,2,Hold,0,2,Real
+B_SQ718,Chord 2,SQ706_How_Long_Chord_6_Light,2,Hold,0,2,Light
+B_SQ718,,SQ701_How_Long_Chord_6_Ground,2,Hold,0,2,Ground
+B_SQ718,,SQ701_How_Long_Chord_6_Hustle,2,Hold,0,2,Hustle
+B_SQ718,,SQ701_How_Long_Chord_6_Real,2,Hold,0,2,Real
+B_SQ718,,SQ702_How_Long_Chord_2_Light,2,Hold,100,2,Light
+B_SQ718,,SQ701_How_Long_Chord_2_Ground,2,Hold,100,2,Ground
+B_SQ718,,SQ701_How_Long_Chord_2_Hustle,2,Hold,100,2,Hustle
+B_SQ718,,SQ701_How_Long_Chord_2_Real,2,Hold,100,2,Real
+B_SQ719,Chord 6,SQ706_How_Long_Chord_6_Light,2,Hold,100,2,Light
+B_SQ719,,SQ701_How_Long_Chord_6_Ground,2,Hold,100,2,Ground
+B_SQ719,,SQ701_How_Long_Chord_6_Hustle,2,Hold,100,2,Hustle
+B_SQ719,,SQ701_How_Long_Chord_6_Real,2,Hold,100,2,Real
+B_SQ719,,SQ702_How_Long_Chord_2_Light,2,Stop,0,2,Light
+B_SQ719,,SQ701_How_Long_Chord_2_Ground,2,Stop,0,2,Ground
+B_SQ719,,SQ701_How_Long_Chord_2_Hustle,2,Stop,0,2,Hustle
+B_SQ719,,SQ701_How_Long_Chord_2_Real,2,Stop,0,2,Real
+B_SQ720,Chord 7,SQ706_How_Long_Chord_6_Light,2,Stop,0,2,Light
+B_SQ720,,SQ701_How_Long_Chord_6_Ground,2,Stop,0,2,Ground
+B_SQ720,,SQ701_How_Long_Chord_6_Hustle,2,Stop,0,2,Hustle
+B_SQ720,,SQ701_How_Long_Chord_6_Real,2,Stop,0,2,Real
+B_SQ720,,SQ720_How_Long_Chord_7_Light,2,Loop,100,2,Light
+B_SQ720,,SQ701_How_Long_Chord_7_Ground,2,Loop,100,2,Ground
+B_SQ720,,SQ701_How_Long_Chord_7_Hustle,2,Loop,100,2,Hustle
+B_SQ720,,SQ701_How_Long_Chord_7_Real,2,Loop,100,2,Real
+B_SQ721,Fade and stop Chord 7,SQ720_How_Long_Chord_7_Light,2,Stop,0,5,Light
+B_SQ721,,SQ701_How_Long_Chord_7_Ground,2,Stop,0,5,Ground
+B_SQ721,,SQ701_How_Long_Chord_7_Hustle,2,Stop,0,5,Hustle
+B_SQ721,,SQ701_How_Long_Chord_7_Real,2,Stop,0,5,Real
 B_SQ801,M1 Trigger Communion Audio,SQ801_CommunionAria2,2,OneShot,100,0
 
 B_VQ801,{ ENABLE } Crown Splash and Rise ,,,,,
@@ -338,31 +338,31 @@ B_SQ901,M1 Trigger Loop,SQ901_Dear_Life,2,Loop,100,3
 B_VQ901,{ CALLFUNCTION } Crown lowers for performer,,,,,
 
 B_SQ902,Fade and stop loop,SQ901_Dear_Life,2,Stop,0,5
-B_SQ2100.91,HustleGroundCommunion1,2101_HustleGroundCommunion1,1,Loop,100,3
-B_SQ2100.92,HustleGroundCommunion2,2101_HustleGroundCommunion1,1,Stop,0,2
-B_SQ2100.92,,2101_HustleGroundCommunion2,1,Loop,100,2
-B_SQ2100.93,HustleGroundCommunion3,2101_HustleGroundCommunion3,1,Loop,100,2
-B_SQ2100.93,,2101_HustleGroundCommunion2,1,Stop,0,2
-B_SQ2100.94,Fade HustleGroundCommunion3,2101_HustleGroundCommunion3,1,Stop,0,5
-B_SQ2100.95,LightVoiceCommunion1,2101_LightVoiceCommunion1,1,Loop,100,3
-B_SQ2100.96,Fade LightVoiceCommunion1,2101_LightVoiceCommunion1,1,Stop,0,5
-B_SQ2100.97,LightVoiceCommunion2,2101_LightVoiceCommunion2,1,Loop,100,3
-B_SQ2100.98,Fade LightVoiceCommunion2,2101_LightVoiceCommunion2,1,Stop,0,5
+B_SQ2100.91,HustleGroundCommunion1,2101_HustleGroundCommunion1,1,Loop,100,3,Hustle;Ground
+B_SQ2100.92,HustleGroundCommunion2,2101_HustleGroundCommunion1,1,Stop,0,2,Hustle;Ground
+B_SQ2100.92,,2101_HustleGroundCommunion2,1,Loop,100,2,Hustle;Ground
+B_SQ2100.93,HustleGroundCommunion3,2101_HustleGroundCommunion3,1,Loop,100,2,Hustle;Ground
+B_SQ2100.93,,2101_HustleGroundCommunion2,1,Stop,0,2,Hustle;Ground
+B_SQ2100.94,Fade HustleGroundCommunion3,2101_HustleGroundCommunion3,1,Stop,0,5,Hustle;Ground
+B_SQ2100.95,LightVoiceCommunion1,2101_LightVoiceCommunion1,1,Loop,100,3,Light;Voice
+B_SQ2100.96,Fade LightVoiceCommunion1,2101_LightVoiceCommunion1,1,Stop,0,5,Light;Voice
+B_SQ2100.97,LightVoiceCommunion2,2101_LightVoiceCommunion2,1,Loop,100,3,Light;Voice
+B_SQ2100.98,Fade LightVoiceCommunion2,2101_LightVoiceCommunion2,1,Stop,0,5,Light;Voice
 
 B_VQ2101,Repeat 301 Shadow system; Shadow appears IN FRONT of Communion; keep Communion Joans active; stretch Communion light onto bodies.,,,,,
-B_VQ2101,Shadow comes in,SQ2201_LightVoiceReal_Shadow1,1,Loop,100,0
+B_VQ2101,Shadow comes in,SQ2201_LightVoiceReal_Shadow1,1,Loop,100,0,Light;Voice;Real
 B_VQ2102,Repeat 501 Shadow jump — position 1; continue Communion reactivity/light on Joans.,,,,,
-B_VQ2102,Shadow jump,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0
+B_VQ2102,Shadow jump,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0,Light;Voice;Real
 B_VQ2103,Repeat 501 Shadow jump — position 2; continue Communion reactivity/light on Joans.,,,,,
-B_VQ2103,Shadow jump,SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0
+B_VQ2103,Shadow jump,SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0,Light;Voice;Real
 B_VQ2104,Repeat 501 Shadow jump — position 3; continue Communion reactivity/light on Joans.,,,,,
 B_VQ2104,Repeat 501 Shadow jump — position 4; continue Communion reactivity/light on Joans.,,,,,
-B_VQ2104,Shadow jump,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0
+B_VQ2104,Shadow jump,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0,Light;Voice;Real
 B_VQ2105,Repeat 501 Shadow jump — position 5; continue Communion reactivity/light on Joans; light trails pull toward center if feasible.,,,,,
-B_VQ2105,Shadow jump,SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0
+B_VQ2105,Shadow jump,SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0,Light;Voice;Real
 B_VQ3101 ,Repeat 601 Shadow dissolve; Communion light leaves 5x Joans → attracts to center; converge into single central light figure. (Shadow dissolve part),,,,,
 B_VQ3105,Real Joan moves forward into centralized Communion light; keep light responsive.,,,,,
-B_VQ3105,Stop 2101,SQ2201_LightVoiceReal_Shadow1,1,Stop,0,3
+B_VQ3105,Stop 2101,SQ2201_LightVoiceReal_Shadow1,1,Stop,0,3,Light;Voice;Real
 
 C_SQ001,Prologue audio only,,,,,
 C_SQ101,Scene 1,,,,,
