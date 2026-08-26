@@ -1,172 +1,137 @@
 BaseUrl,https://raw.githubusercontent.com/your-org/your-repo/main/audio,,,,,
 CsvVersion,27,,,,,
 CueId,Notes,StemFileName,Version,Action,Volume,Speed
-STOP_ALL,Kill everything,,,StopAll,,2
 A_SQ001,Prologue audio only,,,,,
-B_SQ001,Prologue audio only,,,,,
-C_SQ001,Prologue audio only,,,,,
 A_SQ101,Scene 1,,,,,
-B_SQ101,Scene 1,,,,,
-C_SQ101,Scene 1,,,,,
 A_SQ201,Loop pop bridge and synth,SQ201_Hustle_Pop,2,Loop,100,0
 A_SQ201,,SQ201_Hustle_Bridge,2,Loop,0,0
 A_SQ201,,SQ201_Hustle_Synth,2,Loop,0,0
+A_SQ202,Volume down on pop and up on bridge,SQ201_Hustle_Pop,2,Hold,0,0
+A_SQ202,,SQ201_Hustle_Bridge,2,Hold,100,0
+A_SQ202,,SQ201_Hustle_Synth,2,Hold,0,0
+A_SQ203,Volume up on pop and down on bridge,SQ201_Hustle_Pop,2,Hold,100,0
+A_SQ203,,SQ201_Hustle_Bridge,2,Hold,0,0
+A_SQ203,,SQ201_Hustle_Synth,2,Hold,0,0
+A_SQ204,Volume down on pop and up on bridge,SQ201_Hustle_Pop,2,Hold,0,0
+A_SQ204,,SQ201_Hustle_Bridge,2,Hold,100,0
+A_SQ204,,SQ201_Hustle_Synth,2,Hold,0,0
+A_SQ205,Volume up on pop and down on bridge,SQ201_Hustle_Pop,2,Hold,100,0
+A_SQ205,,SQ201_Hustle_Bridge,2,Hold,0,0
+A_SQ205,,SQ201_Hustle_Synth,2,Hold,0,0
+A_SQ206,Stop pop and bridge volume up on synth,SQ201_Hustle_Pop,2,Stop,0,0
+A_SQ206,,SQ201_Hustle_Bridge,2,Stop,0,0
+A_SQ206,,SQ201_Hustle_Synth,2,Hold,100,0
+A_SQ207,Stop synth volume up on drone,SQ201_Hustle_Synth,2,Stop,0,0
+A_SQ207,,SQ201_Hustle_Drone,2,Loop,100,0
+A_SQ208,Fade drone,SQ201_Hustle_Drone,2,Stop,0,5
+A_SQ209,,,,,,
+A_SQ210,,,,,,
+A_SQ211,,,,,,
+A_SQ212,,,,,,
+A_SQ213,,,,,,
+A_SQ214,,,,,,
+A_SQ215,,,,,,
+A_SQ216,,,,,,
+A_SQ217,,,,,,
+A_SQ218,,,,,,
+A_SQ301,,,,,,
+A_SQ401,Transition,,,,,
+A_SQ501,,,,,,
+A_SQ601,,,,,,
+A_SQ702,,,,,,
+A_SQ703,,,,,,
+A_SQ704,,,,,,
+A_SQ705,,,,,,
+A_SQ706,,,,,,
+A_SQ707,,,,,,
+A_SQ708,,,,,,
+A_SQ709,,,,,,
+A_SQ710,,,,,,
+A_SQ711,,,,,,
+A_SQ712,,,,,,
+A_SQ713,,,,,,
+A_SQ714,,,,,,
+A_SQ715,,,,,,
+A_SQ716,,,,,,
+A_SQ717,,,,,,
+A_SQ718,,,,,,
+A_SQ719,,,,,,
+A_SQ720,,,,,,
+A_SQ721,,,,,,
+A_SQ801,,,,,,
+A_SQ901,,,,,,
+A_SQ902,,,,,,
+
+B_SQ001,Prologue audio only,,,,,
+B_SQ101,Scene 1,,,,,
 B_SQ201,M1 Play all loops,SQ201_Light_Pop,2,Loop,100,0
 B_SQ201,,SQ201_Light_Bridge,2,Loop,0,0
 B_SQ201,,SQ201_Light_Rock1,2,Loop,0,0
 B_SQ201,,SQ201_Light_Rock2,2,Loop,0,0
+
 B_VQ201,M1 { ENABLE } Hexagonal Light Bloom w/ Boombox,,,,,
-C_SQ201,M1 Loop Drone 1,SQ201_Voice_Drone1,2,Loop,100,3
-C_VQ201,M1 { ENABLE } Collage C_VQ201_COLLAGE_PREVIEW_37SEC,,,Hold at end,,
-C_VQ201.1,M12 { DISABLE } Collage C_VQ201_COLLAGE_PREVIEW_37SEC,,,2sec fade out,,
 B_VQ201.1,M5 { ENABLE } Blue Butterflies,,,,,
 B_VQ201.2,M9 { ENABLE } Bee Swarm,,,,,
-A_SQ202,Volume down on pop and up on bridge,SQ201_Hustle_Pop,2,Hold,0,0
-A_SQ202,,SQ201_Hustle_Bridge,2,Hold,100,0
-A_SQ202,,SQ201_Hustle_Synth,2,Hold,0,0
+
 B_SQ202,M13 Volume down on pop up on bridge,SQ201_Light_Pop,2,Hold,0,0
 B_SQ202,,SQ201_Light_Bridge,2,Hold,100,0
 B_SQ202,,SQ201_Light_Rock1,2,Hold,0,0
 B_SQ202,,SQ201_Light_Rock2,2,Hold,0,0
+
 B_VQ202,M13 { ENABLE } Lilac Petals / Purple Trails,,,,,
-C_SQ202,M6 Trigger machine and Loop Synth 1,SQ202_Machine,2,OneShot,100,0
-C_SQ202,,SQ201_Voice_Drone1,2,Hold,100,0
-C_SQ202,,SQ202_Voice_Synth1,2,Loop,100,3
-C_VQ202.1,M12 { START } Bird Swarm,,,,,
-A_SQ203,Volume up on pop and down on bridge,SQ201_Hustle_Pop,2,Hold,100,0
-A_SQ203,,SQ201_Hustle_Bridge,2,Hold,0,0
-A_SQ203,,SQ201_Hustle_Synth,2,Hold,0,0
+
 B_SQ203,M22 Volume down on bridge up on pop,SQ201_Light_Pop,2,Hold,100,0
 B_SQ203,,SQ201_Light_Bridge,2,Hold,0,0
 B_SQ203,,SQ201_Light_Rock1,2,Hold,0,0
 B_SQ203,,SQ201_Light_Rock2,2,Hold,0,0
-C_SQ203,M14 Trigger machine fade and stop Drone 1,SQ202_Machine,2,OneShot,100,0
-C_SQ203,,SQ201_Voice_Drone1,2,Stop,0,3
-C_SQ203,,SQ202_Voice_Synth1,2,Hold,100,0
-A_SQ204,Volume down on pop and up on bridge,SQ201_Hustle_Pop,2,Hold,0,0
-A_SQ204,,SQ201_Hustle_Bridge,2,Hold,100,0
-A_SQ204,,SQ201_Hustle_Synth,2,Hold,0,0
 B_SQ204,M34 Volume down on pop up on bridge,SQ201_Light_Pop,2,Hold,0,0
 B_SQ204,,SQ201_Light_Bridge,2,Hold,100,0
 B_SQ204,,SQ201_Light_Rock1,2,Hold,0,0
 B_SQ204,,SQ201_Light_Rock2,2,Hold,0,0
-C_SQ204,M16 Trigger machine Loop Drone 2 fade and stop Synth 1,SQ202_Machine,2,OneShot,100,0
-C_SQ204,,SQ204_Voice_Drone2,2,Loop,100,3
-C_SQ204,,SQ202_Voice_Synth1,2,Stop,0,3
-A_SQ205,Volume up on pop and down on bridge,SQ201_Hustle_Pop,2,Hold,100,0
-A_SQ205,,SQ201_Hustle_Bridge,2,Hold,0,0
-A_SQ205,,SQ201_Hustle_Synth,2,Hold,0,0
 B_SQ205,M43 Volume down on bridge up on rock1,SQ201_Light_Pop,2,Hold,0,0
 B_SQ205,,SQ201_Light_Bridge,2,Hold,0,0
 B_SQ205,,SQ201_Light_Rock1,2,Hold,100,0
 B_SQ205,,SQ201_Light_Rock2,2,Hold,0,0
-C_SQ205,M24 Trigger machine and Loop Synth 2,SQ202_Machine,2,OneShot,100,0
-C_SQ205,,SQ204_Voice_Drone2,2,Hold,100,0
-C_SQ205,,SQ205_Voice_Synth2,2,Loop,100,3
-A_SQ206,Stop pop and bridge volume up on synth,SQ201_Hustle_Pop,2,Stop,0,0
-A_SQ206,,SQ201_Hustle_Bridge,2,Stop,0,0
-A_SQ206,,SQ201_Hustle_Synth,2,Hold,100,0
 B_SQ206,M51 Volume down on rock1 up on rock2,SQ201_Light_Pop,2,Hold,0,0
 B_SQ206,,SQ201_Light_Bridge,2,Hold,0,0
 B_SQ206,,SQ201_Light_Rock1,2,Hold,0,0
 B_SQ206,,SQ201_Light_Rock2,2,Hold,100,0
+
 B_VQ206,M51 { ENABLE } Leaves,,,,,
-C_SQ206,M28 Trigger machine,SQ202_Machine,2,OneShot,100,0
-C_SQ206,,SQ204_Voice_Drone2,2,Hold,100,0
-C_SQ206,,SQ205_Voice_Synth2,2,Hold,100,0
-C_VQ203,M14 { ENABLE } Birds land/stare,,,,,
-A_SQ207,Stop synth volume up on drone,SQ201_Hustle_Synth,2,Stop,0,0
-A_SQ207,,SQ201_Hustle_Drone,2,Loop,100,0
+
 B_SQ207,M57 Volume down on rock2 up on rock1,SQ201_Light_Pop,2,Hold,0,0
 B_SQ207,,SQ201_Light_Bridge,2,Hold,0,0
 B_SQ207,,SQ201_Light_Rock1,2,Hold,100,0
 B_SQ207,,SQ201_Light_Rock2,2,Hold,0,0
-C_SQ207,M32 Trigger machine and Helicopter,SQ202_Machine,2,OneShot,100,0
-C_SQ207,,SQ204_Voice_Drone2,2,Hold,100,0
-C_SQ207,,SQ205_Voice_Synth2,2,Hold,100,0
-C_SQ207,,SQ207_Helicopter,2,OneShot,100,0
-A_SQ208,Fade drone,SQ201_Hustle_Drone,2,Stop,0,5
 B_SQ208,M63 Stop rock1 volume up on rock2,SQ201_Light_Pop,2,Hold,0,0
 B_SQ208,,SQ201_Light_Bridge,2,Hold,0,0
 B_SQ208,,SQ201_Light_Rock1,2,Stop,0,0
 B_SQ208,,SQ201_Light_Rock2,2,Hold,100,0
+
 B_VQ208,"M63 { ENABLE } Snowflakes 
 { DISABLE } Everything except Boombox",,,,,
-C_SQ208,M35 Trigger machine and Helicopter,SQ202_Machine,2,OneShot,100,0
-C_SQ208,,SQ204_Voice_Drone2,2,Hold,100,0
-C_SQ208,,SQ205_Voice_Synth2,2,Hold,100,0
-C_SQ208,,SQ207_Helicopter,2,OneShot,100,0
-A_SQ209,,,,,,
+
 B_SQ209,M69 Stop rock2 volume up on bridge,SQ201_Light_Pop,2,Hold,100,0
 B_SQ209,,SQ201_Light_Bridge,2,Hold,0,0
 B_SQ209,,SQ201_Light_Rock2,2,Stop,0,0
-C_SQ209,M39 Trigger Helicopter fade and stop drone 2,SQ204_Voice_Drone2,2,Stop,0,3
-C_SQ209,,SQ205_Voice_Synth2,2,Hold,100,0
-C_SQ209,,SQ207_Helicopter,2,OneShot,100,0
-A_SQ210,,,,,,
 B_SQ210,M82 Stop bridge volume up on pop,SQ201_Light_Pop,2,Hold,100,0
 B_SQ210,,SQ201_Light_Bridge,2,Stop,0,0
-C_SQ210,M40 Trigger machine,SQ202_Machine,2,OneShot,100,0
-C_SQ210,,SQ205_Voice_Synth2,2,Hold,100,0
-A_SQ211,,,,,,
 B_SQ211,M89 Stop pop,SQ201_Light_Pop,2,Stop,0,0
-C_SQ211,M43 Trigger machine Loop Drone 3 fade out Synth 2,SQ202_Machine,2,OneShot,100,0
-C_SQ211,,SQ211_Voice_Drone3,2,Loop,100,3
-C_SQ211,,SQ205_Voice_Synth2,2,Stop,0,3
-A_SQ212,,,,,,
 B_SQ212,,,,,,
-C_SQ212,M50 Trigger machine and Loop Synth 3,SQ202_Machine,2,OneShot,100,0
-C_SQ212,,SQ211_Voice_Drone3,2,Hold,100,0
-C_SQ212,,SQ212_Voice_Synth3,2,Loop,100,3
-C_VQ212,M50 { CALLFUNCTION } Birds Swarm,,,,,
-A_SQ213,,,,,,
 B_SQ213,,,,,,
-C_SQ213,M55 Trigger machine,SQ202_Machine,2,OneShot,100,0
-C_SQ213,,SQ211_Voice_Drone3,2,Hold,100,0
-C_SQ213,,SQ212_Voice_Synth3,2,Hold,100,0
-C_VQ213.1,M60 { CALLFUNCTION } Birds settle,,,,,
-A_SQ214,,,,,,
 B_SQ214,,,,,,
-C_SQ214,M62 Trigger Helicopter 2,SQ211_Voice_Drone3,2,Hold,100,0
-C_SQ214,,SQ212_Voice_Synth3,2,Hold,100,0
-C_SQ214,,SQ214_Helicopter2,2,OneShot,100,0
-A_SQ215,,,,,,
 B_SQ215,,,,,,
-C_SQ215,M63 Trigger machine,SQ202_Machine,2,OneShot,100,0
-C_SQ215,,SQ211_Voice_Drone3,2,Hold,100,0
-C_SQ215,,SQ212_Voice_Synth3,2,Hold,100,0
-C_VQ215,M70 { CALLFUNCTION } Birds fly away/fade,,,,,
-A_SQ216,,,,,,
 B_SQ216,,,,,,
-C_SQ216,M65 Trigger Helicopter 2,SQ211_Voice_Drone3,2,Hold,100,0
-C_SQ216,,SQ212_Voice_Synth3,2,Hold,100,0
-C_SQ216,,SQ214_Helicopter2,2,OneShot,100,0
-A_SQ217,,,,,,
 B_SQ217,,,,,,
-C_SQ217,M67 Trigger machine and Helicopter 2,SQ202_Machine,2,OneShot,100,0
-C_SQ217,,SQ211_Voice_Drone3,2,Hold,100,0
-C_SQ217,,SQ212_Voice_Synth3,2,Hold,100,0
-C_SQ217,,SQ214_Helicopter2,2,OneShot,100,0
-A_SQ218,,,,,,
 B_SQ218,,,,,,
-C_SQ218,M70 Trigger machine and Helicopter 2 fade and stop drone 3 and synth 3,SQ202_Machine,2,OneShot,100,0
-C_SQ218,,SQ211_Voice_Drone3,2,Stop,0,5
-C_SQ218,,SQ212_Voice_Synth3,2,Stop,0,5
-C_SQ218,,SQ214_Helicopter2,2,OneShot,100,0
-A_SQ301,,,,,,
 B_SQ301,M1 Play track,SQ301_Light_Shadow1,2,OneShot,100,0
-C_SQ301,,,,,,
+
 B_VQ301,M1 { ENABLE } Shadow {DISABLE} bloom-butterflies-bees-lilacs-snowflakes-joanofthelight,,,,,
-A_SQ401,Transition,,,,,
+
 B_SQ401,Transition,,,,,
-C_SQ401,Transition,,,,,
-A_SQ501,,,,,,
 B_SQ501,M1 Trigger Shadow Fight,SQ501_Light_Shadow2,2,Loop,100,0
+
 B_VQ501,{ CALLFUNCTION } Shadow all particle layers,,,,,
-B_VQ502,{ CALLFUNCTION } Effect mod (placeholder),,,,,
-B_VQ503,The MUSICIAN tries to battle the SHADOW. ,SQ2201_LightVoiceReal_Shadow1,1,Loop,100,3
-B_VQ504,{ CALLFUNCTION } Effect mod (placeholder - GO NUTS),SQ504_ShadowGoNuts,1,Loop,100,0
-C_SQ501,,,,,,
 B_VQ501,MTK { CALLFUNCTION } Shadow grows in amplitude/reactivity - ADD white lines - data - red lines,,,,,
 B_VQ501.1,{ CALLFUNCTION } randomize position,,,,,
 B_VQ501.11,{ CALLFUNCTION } randomize position,,,,,
@@ -174,31 +139,40 @@ B_VQ501.12,{ CALLFUNCTION } randomize position,,,,,
 B_VQ501.13,{ CALLFUNCTION } randomize position,,,,,
 B_VQ501.14,{ CALLFUNCTION } randomize position,,,,,
 B_VQ501.15,{ CALLFUNCTION } randomize position,,,,,
-A_SQ601,,,,,,
+B_VQ502,{ CALLFUNCTION } Effect mod (placeholder),,,,,
+B_VQ503,The MUSICIAN tries to battle the SHADOW. ,SQ2201_LightVoiceReal_Shadow1,1,Loop,100,3
+B_VQ503.11,SHADOW ATTACK 1 ,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0
+B_VQ503.12,DEATH IMPACT -> IDLE BREAK,SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0
+B_VQ503.13,SHADOW ATTACK 2,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0
+B_VQ503.14,DEATH IMPACT -> IDLE BREAK (LOOP),SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0
+B_VQ503.14,,SQ2201_LightVoiceReal_Shadow1,1,Stop,0,3
+B_VQ504,{ CALLFUNCTION } Effect mod (placeholder - GO NUTS),SQ504_ShadowGoNuts,1,Loop,100,0
+
 B_SQ601,M1 Trigger Communion Audio,SQ504_ShadowGoNuts,1,Stop,0,3
 B_SQ601,,SQ601_CommunionAria_Ground,2,OneShot,100,0
 B_SQ601,,SQ601_CommunionAria_Hustle,2,OneShot,100,0
 B_SQ601,,SQ601_CommunionAria_Light,2,OneShot,100,0
 B_SQ601,,SQ601_CommunionAria_Real,2,OneShot,100,0
 B_SQ601,,SQ601_CommunionAria_Voice,2,OneShot,100,0
+
 B_VQ601,{ ENABLE } Communion Scene,,,,,
+
 B_SQ601.5,M1 Trigger Communion Stab - Ripples descend,SQ601.5_CommunionStabAug_Ground,1,OneShot,100,0
 B_SQ601.5,{ ENABLE } VQ: Add 'Hustle' Figure,SQ601.5_CommunionStabAug_Hustle,1,OneShot,100,0
 B_SQ601.5,{ ENABLE } VQ: Add  'Light' Figure,SQ601.5_CommunionStabAug_Light,1,OneShot,100,0
 B_SQ601.5,{ ENABLE } VQ: Add 'Real' Figure,SQ601.5_CommunionStabAug_Real,1,OneShot,100,0
 B_SQ601.5,{ ENABLE } VQ: Add  'Voice' Figure,SQ601.5_CommunionStabAug_Voice,1,OneShot,100,0
 B_SQ601.5,,SQ501_Light_Shadow2,2,Stop,0,20
-C_SQ601.5,{ ENABLE } VQ: Add  'Ground' Figure,,,,,
 B_SQ601.5,{ ENABLE } VQ: Enable Communion Reveal,,,,,
+
 B_VQ602,{ CALLFUNCTION } Full Communion Rotation,,,,,
 B_VQ602,Loop Communion Audio Chord 1,SQ701_How_Long_Chord_1_Light,2,Loop,100,2
 B_VQ602,,SQ701_How_Long_Chord_1_Ground,2,Loop,100,2
 B_VQ602,,SQ701_How_Long_Chord_1_Hustle,2,Loop,100,2
 B_VQ602,,SQ701_How_Long_Chord_1_Real,2,Loop,100,2
-B_VQ701.1,{DISABLE} Shadow,,,,,
-C_SQ701,,,,,,
 B_VQ701,{ CALLFUNCTION } Increase in reactivity/frequency,,,,,
-A_SQ702,,,,,,
+B_VQ701.1,{DISABLE} Shadow,,,,,
+
 B_SQ702,Cross-fade between chords,SQ701_How_Long_Chord_1_Light,2,Stop,0,2
 B_SQ702,,SQ701_How_Long_Chord_1_Ground,2,Stop,0,2
 B_SQ702,,SQ701_How_Long_Chord_1_Hustle,2,Stop,0,2
@@ -207,8 +181,6 @@ B_SQ702,,SQ702_How_Long_Chord_2_Light,2,Loop,100,2
 B_SQ702,,SQ701_How_Long_Chord_2_Ground,2,Loop,100,2
 B_SQ702,,SQ701_How_Long_Chord_2_Hustle,2,Loop,100,2
 B_SQ702,,SQ701_How_Long_Chord_2_Real,2,Loop,100,2
-C_SQ702,,,,,,
-A_SQ703,,,,,,
 B_SQ703,Cross-fade between chords,SQ703_How_Long_Chord_3_Light,2,Loop,100,2
 B_SQ703,,SQ701_How_Long_Chord_3_Ground,2,Loop,100,2
 B_SQ703,,SQ701_How_Long_Chord_3_Hustle,2,Loop,100,2
@@ -217,8 +189,6 @@ B_SQ703,,SQ702_How_Long_Chord_2_Light,2,Hold,0,2
 B_SQ703,,SQ701_How_Long_Chord_2_Ground,2,Hold,0,2
 B_SQ703,,SQ701_How_Long_Chord_2_Hustle,2,Hold,0,2
 B_SQ703,,SQ701_How_Long_Chord_2_Real,2,Hold,0,2
-C_SQ703,,,,,,
-A_SQ704,,,,,,
 B_SQ704,Cross-fade between chords,SQ703_How_Long_Chord_3_Light,2,Hold,0,2
 B_SQ704,,SQ701_How_Long_Chord_3_Ground,2,Hold,0,2
 B_SQ704,,SQ701_How_Long_Chord_3_Hustle,2,Hold,0,2
@@ -227,8 +197,6 @@ B_SQ704,,SQ704_How_Long_Chord_4_Light,2,Loop,100,2
 B_SQ704,,SQ701_How_Long_Chord_4_Ground,2,Loop,100,2
 B_SQ704,,SQ701_How_Long_Chord_4_Hustle,2,Loop,100,2
 B_SQ704,,SQ701_How_Long_Chord_4_Real,2,Loop,100,2
-C_SQ704,,,,,,
-A_SQ705,,,,,,
 B_SQ705,Cross-fade between chords,SQ705_How_Long_Chord_5_Light,2,Loop,100,2
 B_SQ705,,SQ701_How_Long_Chord_5_Ground,2,Loop,100,2
 B_SQ705,,SQ701_How_Long_Chord_5_Hustle,2,Loop,100,2
@@ -237,8 +205,6 @@ B_SQ705,,SQ704_How_Long_Chord_4_Light,2,Stop,0,2
 B_SQ705,,SQ701_How_Long_Chord_4_Ground,2,Stop,0,2
 B_SQ705,,SQ701_How_Long_Chord_4_Hustle,2,Stop,0,2
 B_SQ705,,SQ701_How_Long_Chord_4_Real,2,Stop,0,2
-C_SQ705,,,,,,
-A_SQ706,,,,,,
 B_SQ706,Cross-fade between chords,SQ705_How_Long_Chord_5_Light,2,Hold,0,2
 B_SQ706,,SQ701_How_Long_Chord_5_Ground,2,Hold,0,2
 B_SQ706,,SQ701_How_Long_Chord_5_Hustle,2,Hold,0,2
@@ -247,8 +213,6 @@ B_SQ706,,SQ703_How_Long_Chord_3_Light,2,Hold,100,2
 B_SQ706,,SQ701_How_Long_Chord_3_Ground,2,Hold,100,2
 B_SQ706,,SQ701_How_Long_Chord_3_Hustle,2,Hold,100,2
 B_SQ706,,SQ701_How_Long_Chord_3_Real,2,Hold,100,2
-C_SQ706,,,,,,
-A_SQ707,,,,,,
 B_SQ707,Cross-fade between chords,SQ705_How_Long_Chord_5_Light,2,Hold,100,2
 B_SQ707,,SQ701_How_Long_Chord_5_Ground,2,Hold,100,2
 B_SQ707,,SQ701_How_Long_Chord_5_Hustle,2,Hold,100,2
@@ -257,8 +221,6 @@ B_SQ707,,SQ703_How_Long_Chord_3_Light,2,Hold,0,2
 B_SQ707,,SQ701_How_Long_Chord_3_Ground,2,Hold,0,2
 B_SQ707,,SQ701_How_Long_Chord_3_Hustle,2,Hold,0,2
 B_SQ707,,SQ701_How_Long_Chord_3_Real,2,Hold,0,2
-C_SQ707,,,,,,
-A_SQ708,,,,,,
 B_SQ708,Cross-fade between chords,SQ705_How_Long_Chord_5_Light,2,Hold,0,2
 B_SQ708,,SQ701_How_Long_Chord_5_Ground,2,Hold,0,2
 B_SQ708,,SQ701_How_Long_Chord_5_Hustle,2,Hold,0,2
@@ -267,8 +229,6 @@ B_SQ708,,SQ703_How_Long_Chord_3_Light,2,Hold,100,2
 B_SQ708,,SQ701_How_Long_Chord_3_Ground,2,Hold,100,2
 B_SQ708,,SQ701_How_Long_Chord_3_Hustle,2,Hold,100,2
 B_SQ708,,SQ701_How_Long_Chord_3_Real,2,Hold,100,2
-C_SQ708,,,,,,
-A_SQ709,,,,,,
 B_SQ709,Cross-fade between chords,SQ705_How_Long_Chord_5_Light,2,Hold,100,2
 B_SQ709,,SQ701_How_Long_Chord_5_Ground,2,Hold,100,2
 B_SQ709,,SQ701_How_Long_Chord_5_Hustle,2,Hold,100,2
@@ -277,8 +237,6 @@ B_SQ709,,SQ703_How_Long_Chord_3_Light,2,Hold,0,2
 B_SQ709,,SQ701_How_Long_Chord_3_Ground,2,Hold,0,2
 B_SQ709,,SQ701_How_Long_Chord_3_Hustle,2,Hold,0,2
 B_SQ709,,SQ701_How_Long_Chord_3_Real,2,Hold,0,2
-C_SQ709,,,,,,
-A_SQ710,,,,,,
 B_SQ710,Cross-fade between chords,SQ705_How_Long_Chord_5_Light,2,Stop,0,2
 B_SQ710,,SQ701_How_Long_Chord_5_Ground,2,Stop,0,2
 B_SQ710,,SQ701_How_Long_Chord_5_Hustle,2,Stop,0,2
@@ -287,8 +245,6 @@ B_SQ710,,SQ703_How_Long_Chord_3_Light,2,Hold,100,2
 B_SQ710,,SQ701_How_Long_Chord_3_Ground,2,Hold,100,2
 B_SQ710,,SQ701_How_Long_Chord_3_Hustle,2,Hold,100,2
 B_SQ710,,SQ701_How_Long_Chord_3_Real,2,Hold,100,2
-C_SQ710,,,,,,
-A_SQ711,,,,,,
 B_SQ711,Cross-fade between chords,SQ706_How_Long_Chord_6_Light,2,Loop,100,2
 B_SQ711,,SQ701_How_Long_Chord_6_Ground,2,Loop,100,2
 B_SQ711,,SQ701_How_Long_Chord_6_Hustle,2,Loop,100,2
@@ -297,8 +253,6 @@ B_SQ711,,SQ703_How_Long_Chord_3_Light,2,Stop,0,2
 B_SQ711,,SQ701_How_Long_Chord_3_Ground,2,Stop,0,2
 B_SQ711,,SQ701_How_Long_Chord_3_Hustle,2,Stop,0,2
 B_SQ711,,SQ701_How_Long_Chord_3_Real,2,Stop,0,2
-C_SQ711,,,,,,
-A_SQ712,,,,,,
 B_SQ712,Cross-fade between chords,SQ706_How_Long_Chord_6_Light,2,Hold,0,2
 B_SQ712,,SQ701_How_Long_Chord_6_Ground,2,Hold,0,2
 B_SQ712,,SQ701_How_Long_Chord_6_Hustle,2,Hold,0,2
@@ -307,8 +261,6 @@ B_SQ712,,SQ702_How_Long_Chord_2_Light,2,Hold,100,2
 B_SQ712,,SQ701_How_Long_Chord_2_Ground,2,Hold,100,2
 B_SQ712,,SQ701_How_Long_Chord_2_Hustle,2,Hold,100,2
 B_SQ712,,SQ701_How_Long_Chord_2_Real,2,Hold,100,2
-C_SQ712,,,,,,
-A_SQ713,,,,,,
 B_SQ713,Cross-fade between chords,SQ706_How_Long_Chord_6_Light,2,Hold,100,2
 B_SQ713,,SQ701_How_Long_Chord_6_Ground,2,Hold,100,2
 B_SQ713,,SQ701_How_Long_Chord_6_Hustle,2,Hold,100,2
@@ -317,8 +269,6 @@ B_SQ713,,SQ702_How_Long_Chord_2_Light,2,Hold,0,2
 B_SQ713,,SQ701_How_Long_Chord_2_Ground,2,Hold,0,2
 B_SQ713,,SQ701_How_Long_Chord_2_Hustle,2,Hold,0,2
 B_SQ713,,SQ701_How_Long_Chord_2_Real,2,Hold,0,2
-C_SQ713,,,,,,
-A_SQ714,,,,,,
 B_SQ714,Cross-fade between chords,SQ706_How_Long_Chord_6_Light,2,Hold,0,2
 B_SQ714,,SQ701_How_Long_Chord_6_Ground,2,Hold,0,2
 B_SQ714,,SQ701_How_Long_Chord_6_Hustle,2,Hold,0,2
@@ -327,8 +277,6 @@ B_SQ714,,SQ702_How_Long_Chord_2_Light,2,Hold,100,2
 B_SQ714,,SQ701_How_Long_Chord_2_Ground,2,Hold,100,2
 B_SQ714,,SQ701_How_Long_Chord_2_Hustle,2,Hold,100,2
 B_SQ714,,SQ701_How_Long_Chord_2_Real,2,Hold,100,2
-C_SQ714,,,,,,
-A_SQ715,,,,,,
 B_SQ715,Cross-fade between chords,SQ706_How_Long_Chord_6_Light,2,Hold,100,2
 B_SQ715,,SQ701_How_Long_Chord_6_Ground,2,Hold,100,2
 B_SQ715,,SQ701_How_Long_Chord_6_Hustle,2,Hold,100,2
@@ -337,8 +285,6 @@ B_SQ715,,SQ702_How_Long_Chord_2_Light,2,Hold,0,2
 B_SQ715,,SQ701_How_Long_Chord_2_Ground,2,Hold,0,2
 B_SQ715,,SQ701_How_Long_Chord_2_Hustle,2,Hold,0,2
 B_SQ715,,SQ701_How_Long_Chord_2_Real,2,Hold,0,2
-C_SQ715,,,,,,
-A_SQ716,,,,,,
 B_SQ716,Cross-fade between chords,SQ706_How_Long_Chord_6_Light,2,Hold,0,2
 B_SQ716,,SQ701_How_Long_Chord_6_Ground,2,Hold,0,2
 B_SQ716,,SQ701_How_Long_Chord_6_Hustle,2,Hold,0,2
@@ -347,8 +293,6 @@ B_SQ716,,SQ702_How_Long_Chord_2_Light,2,Hold,100,2
 B_SQ716,,SQ701_How_Long_Chord_2_Ground,2,Hold,100,2
 B_SQ716,,SQ701_How_Long_Chord_2_Hustle,2,Hold,100,2
 B_SQ716,,SQ701_How_Long_Chord_2_Real,2,Hold,100,2
-C_SQ716,,,,,,
-A_SQ717,,,,,,
 B_SQ717,Cross-fade between chords,SQ706_How_Long_Chord_6_Light,2,Hold,100,2
 B_SQ717,,SQ701_How_Long_Chord_6_Ground,2,Hold,100,2
 B_SQ717,,SQ701_How_Long_Chord_6_Hustle,2,Hold,100,2
@@ -357,8 +301,6 @@ B_SQ717,,SQ702_How_Long_Chord_2_Light,2,Hold,0,2
 B_SQ717,,SQ701_How_Long_Chord_2_Ground,2,Hold,0,2
 B_SQ717,,SQ701_How_Long_Chord_2_Hustle,2,Hold,0,2
 B_SQ717,,SQ701_How_Long_Chord_2_Real,2,Hold,0,2
-C_SQ717,,,,,,
-A_SQ718,,,,,,
 B_SQ718,Cross-fade between chords,SQ706_How_Long_Chord_6_Light,2,Hold,0,2
 B_SQ718,,SQ701_How_Long_Chord_6_Ground,2,Hold,0,2
 B_SQ718,,SQ701_How_Long_Chord_6_Hustle,2,Hold,0,2
@@ -367,8 +309,6 @@ B_SQ718,,SQ702_How_Long_Chord_2_Light,2,Hold,100,2
 B_SQ718,,SQ701_How_Long_Chord_2_Ground,2,Hold,100,2
 B_SQ718,,SQ701_How_Long_Chord_2_Hustle,2,Hold,100,2
 B_SQ718,,SQ701_How_Long_Chord_2_Real,2,Hold,100,2
-C_SQ718,,,,,,
-A_SQ719,,,,,,
 B_SQ719,Cross-fade between chords,SQ706_How_Long_Chord_6_Light,2,Hold,100,2
 B_SQ719,,SQ701_How_Long_Chord_6_Ground,2,Hold,100,2
 B_SQ719,,SQ701_How_Long_Chord_6_Hustle,2,Hold,100,2
@@ -377,8 +317,6 @@ B_SQ719,,SQ702_How_Long_Chord_2_Light,2,Stop,0,2
 B_SQ719,,SQ701_How_Long_Chord_2_Ground,2,Stop,0,2
 B_SQ719,,SQ701_How_Long_Chord_2_Hustle,2,Stop,0,2
 B_SQ719,,SQ701_How_Long_Chord_2_Real,2,Stop,0,2
-C_SQ719,,,,,,
-A_SQ720,,,,,,
 B_SQ720,Cross-fade between chords,SQ706_How_Long_Chord_6_Light,2,Stop,0,2
 B_SQ720,,SQ701_How_Long_Chord_6_Ground,2,Stop,0,2
 B_SQ720,,SQ701_How_Long_Chord_6_Hustle,2,Stop,0,2
@@ -387,29 +325,19 @@ B_SQ720,,SQ720_How_Long_Chord_7_Light,2,Loop,100,2
 B_SQ720,,SQ701_How_Long_Chord_7_Ground,2,Loop,100,2
 B_SQ720,,SQ701_How_Long_Chord_7_Hustle,2,Loop,100,2
 B_SQ720,,SQ701_How_Long_Chord_7_Real,2,Loop,100,2
-C_SQ720,,,,,,
-A_SQ721,,,,,,
 B_SQ721,Fade and stop Chord 7,SQ720_How_Long_Chord_7_Light,2,Stop,0,5
 B_SQ721,,SQ701_How_Long_Chord_7_Ground,2,Stop,0,5
 B_SQ721,,SQ701_How_Long_Chord_7_Hustle,2,Stop,0,5
 B_SQ721,,SQ701_How_Long_Chord_7_Real,2,Stop,0,5
-C_SQ721,,,,,,
-A_SQ801,,,,,,
 B_SQ801,M1 Trigger Communion Audio,SQ801_CommunionAria2,2,OneShot,100,0
-C_SQ801,,,,,,
+
 B_VQ801,{ ENABLE } Crown Splash and Rise ,,,,,
-A_SQ901,,,,,,
+
 B_SQ901,M1 Trigger Loop,SQ901_Dear_Life,2,Loop,100,3
-C_SQ901,,,,,,
+
 B_VQ901,{ CALLFUNCTION } Crown lowers for performer,,,,,
-A_SQ902,,,,,,
+
 B_SQ902,Fade and stop loop,SQ901_Dear_Life,2,Stop,0,5
-C_SQ902,,,,,,
-B_VQ503.11,SHADOW ATTACK 1 ,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0
-B_VQ503.12,DEATH IMPACT -> IDLE BREAK,SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0
-B_VQ503.13,SHADOW ATTACK 2,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0
-B_VQ503.14,DEATH IMPACT -> IDLE BREAK (LOOP),SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0
-B_VQ503.14,,SQ2201_LightVoiceReal_Shadow1,1,Stop,0,3
 B_SQ2100.91,HustleGroundCommunion1,2101_HustleGroundCommunion1,1,Loop,100,3
 B_SQ2100.92,HustleGroundCommunion2,2101_HustleGroundCommunion1,1,Stop,0,2
 B_SQ2100.92,,2101_HustleGroundCommunion2,1,Loop,100,2
@@ -420,6 +348,7 @@ B_SQ2100.95,LightVoiceCommunion1,2101_LightVoiceCommunion1,1,Loop,100,3
 B_SQ2100.96,Fade LightVoiceCommunion1,2101_LightVoiceCommunion1,1,Stop,0,5
 B_SQ2100.97,LightVoiceCommunion2,2101_LightVoiceCommunion2,1,Loop,100,3
 B_SQ2100.98,Fade LightVoiceCommunion2,2101_LightVoiceCommunion2,1,Stop,0,5
+
 B_VQ2101,Repeat 301 Shadow system; Shadow appears IN FRONT of Communion; keep Communion Joans active; stretch Communion light onto bodies.,,,,,
 B_VQ2101,Shadow comes in,SQ2201_LightVoiceReal_Shadow1,1,Loop,100,0
 B_VQ2102,Repeat 501 Shadow jump — position 1; continue Communion reactivity/light on Joans.,,,,,
@@ -434,3 +363,110 @@ B_VQ2105,Shadow jump,SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0
 B_VQ3101 ,Repeat 601 Shadow dissolve; Communion light leaves 5x Joans → attracts to center; converge into single central light figure. (Shadow dissolve part),,,,,
 B_VQ3105,Real Joan moves forward into centralized Communion light; keep light responsive.,,,,,
 B_VQ3105,Stop 2101,SQ2201_LightVoiceReal_Shadow1,1,Stop,0,3
+
+C_SQ001,Prologue audio only,,,,,
+C_SQ101,Scene 1,,,,,
+C_SQ201,M1 Loop Drone 1,SQ201_Voice_Drone1,2,Loop,100,3
+
+C_VQ201,M1 { ENABLE } Collage C_VQ201_COLLAGE_PREVIEW_37SEC,,,Hold at end,,
+C_VQ201.1,M12 { DISABLE } Collage C_VQ201_COLLAGE_PREVIEW_37SEC,,,2sec fade out,,
+
+C_SQ202,M6 Trigger machine and Loop Synth 1,SQ202_Machine,2,OneShot,100,0
+C_SQ202,,SQ201_Voice_Drone1,2,Hold,100,0
+C_SQ202,,SQ202_Voice_Synth1,2,Loop,100,3
+
+C_VQ202.1,M12 { START } Bird Swarm,,,,,
+
+C_SQ203,M14 Trigger machine fade and stop Drone 1,SQ202_Machine,2,OneShot,100,0
+C_SQ203,,SQ201_Voice_Drone1,2,Stop,0,3
+C_SQ203,,SQ202_Voice_Synth1,2,Hold,100,0
+
+C_VQ203,M14 { ENABLE } Birds land/stare,,,,,
+
+C_SQ204,M16 Trigger machine Loop Drone 2 fade and stop Synth 1,SQ202_Machine,2,OneShot,100,0
+C_SQ204,,SQ204_Voice_Drone2,2,Loop,100,3
+C_SQ204,,SQ202_Voice_Synth1,2,Stop,0,3
+C_SQ205,M24 Trigger machine and Loop Synth 2,SQ202_Machine,2,OneShot,100,0
+C_SQ205,,SQ204_Voice_Drone2,2,Hold,100,0
+C_SQ205,,SQ205_Voice_Synth2,2,Loop,100,3
+C_SQ206,M28 Trigger machine,SQ202_Machine,2,OneShot,100,0
+C_SQ206,,SQ204_Voice_Drone2,2,Hold,100,0
+C_SQ206,,SQ205_Voice_Synth2,2,Hold,100,0
+C_SQ207,M32 Trigger machine and Helicopter,SQ202_Machine,2,OneShot,100,0
+C_SQ207,,SQ204_Voice_Drone2,2,Hold,100,0
+C_SQ207,,SQ205_Voice_Synth2,2,Hold,100,0
+C_SQ207,,SQ207_Helicopter,2,OneShot,100,0
+C_SQ208,M35 Trigger machine and Helicopter,SQ202_Machine,2,OneShot,100,0
+C_SQ208,,SQ204_Voice_Drone2,2,Hold,100,0
+C_SQ208,,SQ205_Voice_Synth2,2,Hold,100,0
+C_SQ208,,SQ207_Helicopter,2,OneShot,100,0
+C_SQ209,M39 Trigger Helicopter fade and stop drone 2,SQ204_Voice_Drone2,2,Stop,0,3
+C_SQ209,,SQ205_Voice_Synth2,2,Hold,100,0
+C_SQ209,,SQ207_Helicopter,2,OneShot,100,0
+C_SQ210,M40 Trigger machine,SQ202_Machine,2,OneShot,100,0
+C_SQ210,,SQ205_Voice_Synth2,2,Hold,100,0
+C_SQ211,M43 Trigger machine Loop Drone 3 fade out Synth 2,SQ202_Machine,2,OneShot,100,0
+C_SQ211,,SQ211_Voice_Drone3,2,Loop,100,3
+C_SQ211,,SQ205_Voice_Synth2,2,Stop,0,3
+C_SQ212,M50 Trigger machine and Loop Synth 3,SQ202_Machine,2,OneShot,100,0
+C_SQ212,,SQ211_Voice_Drone3,2,Hold,100,0
+C_SQ212,,SQ212_Voice_Synth3,2,Loop,100,3
+
+C_VQ212,M50 { CALLFUNCTION } Birds Swarm,,,,,
+
+C_SQ213,M55 Trigger machine,SQ202_Machine,2,OneShot,100,0
+C_SQ213,,SQ211_Voice_Drone3,2,Hold,100,0
+C_SQ213,,SQ212_Voice_Synth3,2,Hold,100,0
+
+C_VQ213.1,M60 { CALLFUNCTION } Birds settle,,,,,
+
+C_SQ214,M62 Trigger Helicopter 2,SQ211_Voice_Drone3,2,Hold,100,0
+C_SQ214,,SQ212_Voice_Synth3,2,Hold,100,0
+C_SQ214,,SQ214_Helicopter2,2,OneShot,100,0
+C_SQ215,M63 Trigger machine,SQ202_Machine,2,OneShot,100,0
+C_SQ215,,SQ211_Voice_Drone3,2,Hold,100,0
+C_SQ215,,SQ212_Voice_Synth3,2,Hold,100,0
+
+C_VQ215,M70 { CALLFUNCTION } Birds fly away/fade,,,,,
+
+C_SQ216,M65 Trigger Helicopter 2,SQ211_Voice_Drone3,2,Hold,100,0
+C_SQ216,,SQ212_Voice_Synth3,2,Hold,100,0
+C_SQ216,,SQ214_Helicopter2,2,OneShot,100,0
+C_SQ217,M67 Trigger machine and Helicopter 2,SQ202_Machine,2,OneShot,100,0
+C_SQ217,,SQ211_Voice_Drone3,2,Hold,100,0
+C_SQ217,,SQ212_Voice_Synth3,2,Hold,100,0
+C_SQ217,,SQ214_Helicopter2,2,OneShot,100,0
+C_SQ218,M70 Trigger machine and Helicopter 2 fade and stop drone 3 and synth 3,SQ202_Machine,2,OneShot,100,0
+C_SQ218,,SQ211_Voice_Drone3,2,Stop,0,5
+C_SQ218,,SQ212_Voice_Synth3,2,Stop,0,5
+C_SQ218,,SQ214_Helicopter2,2,OneShot,100,0
+C_SQ301,,,,,,
+C_SQ401,Transition,,,,,
+C_SQ501,,,,,,
+C_SQ601.5,{ ENABLE } VQ: Add  'Ground' Figure,,,,,
+C_SQ701,,,,,,
+C_SQ702,,,,,,
+C_SQ703,,,,,,
+C_SQ704,,,,,,
+C_SQ705,,,,,,
+C_SQ706,,,,,,
+C_SQ707,,,,,,
+C_SQ708,,,,,,
+C_SQ709,,,,,,
+C_SQ710,,,,,,
+C_SQ711,,,,,,
+C_SQ712,,,,,,
+C_SQ713,,,,,,
+C_SQ714,,,,,,
+C_SQ715,,,,,,
+C_SQ716,,,,,,
+C_SQ717,,,,,,
+C_SQ718,,,,,,
+C_SQ719,,,,,,
+C_SQ720,,,,,,
+C_SQ721,,,,,,
+C_SQ801,,,,,,
+C_SQ901,,,,,,
+C_SQ902,,,,,,
+
+STOP_ALL,Kill everything,,,StopAll,,2
