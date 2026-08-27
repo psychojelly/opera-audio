@@ -1,5 +1,5 @@
 BaseUrl,https://raw.githubusercontent.com/your-org/your-repo/main/audio,,,,,,
-CsvVersion,28,,,,,,
+CsvVersion,29,,,,,,
 CueId,Notes,StemFileName,Version,Action,Volume,Speed,Joan
 A_SQ001,Prologue audio only,,,,,
 A_SQ101,Scene 1,,,,,
@@ -399,6 +399,16 @@ B_VQ2105,Shadow jump,SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0
 B_VQ3101 ,Repeat 601 Shadow dissolve; Communion light leaves 5x Joans → attracts to center; converge into single central light figure. (Shadow dissolve part),,,,,
 B_VQ3105,Real Joan moves forward into centralized Communion light; keep light responsive.,,,,,
 B_VQ3105,Stop 2101,SQ2201_LightVoiceReal_Shadow1,1,Stop,0,3
+B_SQ3201,Communion 1 — SQ3201_HustleGroundCommunion1,SQ3201_HustleGroundCommunion1,1,Loop,100,2,Hustle;Ground
+B_SQ3202,Crossfade Communion 1 → 2,SQ3201_HustleGroundCommunion1,1,Stop,0,2,Hustle;Ground
+B_SQ3202,,SQ3202_HustleGroundCommunion2,1,Loop,100,2,Hustle;Ground
+B_SQ3203,Fade out Communion 2,SQ3202_HustleGroundCommunion2,1,Stop,0,2,Hustle;Ground
+B_SQ3204,Communion 3 — SQ3204_HustleGroundCommunion3,SQ3204_HustleGroundCommunion3,1,Loop,100,2,Hustle;Ground
+B_SQ3205,Fade out Communion 3,SQ3204_HustleGroundCommunion3,1,Stop,0,2,Hustle;Ground
+B_SQ3211,Communion 1 — SQ3211_LightVoiceRealCommunion1,SQ3211_LightVoiceRealCommunion1,1,Loop,100,2,Light;Voice;Real
+B_SQ3212,Crossfade Communion 1 → 2,SQ3211_LightVoiceRealCommunion1,1,Stop,0,2,Light;Voice;Real
+B_SQ3212,,SQ3212_LightVoiceRealCommunion2,1,Loop,100,2,Light;Voice;Real
+B_SQ3213,Fade out Communion 2,SQ3212_LightVoiceRealCommunion2,1,Stop,0,2,Light;Voice;Real
 
 C_SQ001,Prologue audio only,,,,,
 C_SQ101,Scene 1,,,,,
