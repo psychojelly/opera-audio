@@ -1,5 +1,5 @@
 BaseUrl,https://raw.githubusercontent.com/your-org/your-repo/main/audio,,,,,,
-CsvVersion,27,,,,,,
+CsvVersion,28,,,,,,
 CueId,Notes,StemFileName,Version,Action,Volume,Speed,Joan
 A_SQ001,Prologue audio only,,,,,
 A_SQ101,Scene 1,,,,,
@@ -166,22 +166,19 @@ B_SQ601.5,,SQ501_Light_Shadow2,2,Stop,0,20
 B_SQ601.5,{ ENABLE } VQ: Enable Communion Reveal,,,,,
 
 B_VQ602,{ CALLFUNCTION } Full Communion Rotation,,,,,
-B_VQ602,Loop Communion Audio Chord 1,SQ701_How_Long_Chord_1_Light,2,Loop,100,2
-B_VQ602,,SQ701_How_Long_Chord_1_Ground,2,Loop,100,2
-B_VQ602,,SQ701_How_Long_Chord_1_Hustle,2,Loop,100,2
-B_VQ602,,SQ701_How_Long_Chord_1_Real,2,Loop,100,2
+B_VQ602,Loop Communion Audio Chord 1 for everyone,SQ701_How_Long_Chord_1_Everyone,2,Loop,100,2
 B_VQ701,{ CALLFUNCTION } Increase in reactivity/frequency,,,,,
 B_VQ701.1,{DISABLE} Shadow,,,,,
 
-B_SQ702.1,Chord 2 — SQ701_How_Long_Chord_2 (Ground),SQ701_How_Long_Chord_1_Ground,2,Stop,0,2,Ground
+B_SQ702.1,Chord 2 — SQ701_How_Long_Chord_2 (Ground),SQ701_How_Long_Chord_1_Everyone,2,Stop,0,2,Ground
 B_SQ702.1,,SQ701_How_Long_Chord_2_Ground,2,Loop,100,2,Ground
-B_SQ702.2,Chord 2 — SQ701_How_Long_Chord_2 (Hustle),SQ701_How_Long_Chord_1_Hustle,2,Stop,0,2,Hustle
+B_SQ702.2,Chord 2 — SQ701_How_Long_Chord_2 (Hustle),SQ701_How_Long_Chord_1_Everyone,2,Stop,0,2,Hustle
 B_SQ702.2,,SQ701_How_Long_Chord_2_Hustle,2,Loop,100,2,Hustle
-B_SQ702.3,Chord 2 — SQ702_How_Long_Chord_2 (Light),SQ701_How_Long_Chord_1_Light,2,Stop,0,2,Light
+B_SQ702.3,Chord 2 — SQ702_How_Long_Chord_2 (Light),SQ701_How_Long_Chord_1_Everyone,2,Stop,0,2,Light
 B_SQ702.3,,SQ702_How_Long_Chord_2_Light,2,Loop,100,2,Light
-B_SQ702.4,Chord 2 — SQ701_How_Long_Chord_2 (Real),SQ701_How_Long_Chord_1_Real,2,Stop,0,2,Real
+B_SQ702.4,Chord 2 — SQ701_How_Long_Chord_2 (Real),SQ701_How_Long_Chord_1_Everyone,2,Stop,0,2,Real
 B_SQ702.4,,SQ701_How_Long_Chord_2_Real,2,Loop,100,2,Real
-B_SQ702.5,Chord 2 — SQ701_How_Long_Chord_2 (Voice),SQ701_How_Long_Chord_1_Voice,2,Stop,0,2,Voice
+B_SQ702.5,Chord 2 — SQ701_How_Long_Chord_2 (Voice),SQ701_How_Long_Chord_1_Everyone,2,Stop,0,2,Voice
 B_SQ702.5,,SQ701_How_Long_Chord_2_Voice,2,Loop,100,2,Voice
 B_SQ703.1,Chord 3 — SQ701_How_Long_Chord_3 (Ground),SQ701_How_Long_Chord_3_Ground,2,Loop,100,2,Ground
 B_SQ703.1,,SQ701_How_Long_Chord_2_Ground,2,Hold,0,2,Ground
