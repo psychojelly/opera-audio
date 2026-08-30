@@ -1,5 +1,5 @@
 BaseUrl,https://raw.githubusercontent.com/your-org/your-repo/main/audio,,,,,,
-CsvVersion,34,,,,,,
+CsvVersion,35,,,,,,
 CueId,Notes,StemFileName,Version,Action,Volume,Speed,Joan
 A_SQ001,Prologue audio only,,,,,
 A_SQ101,Scene 1,,,,,
@@ -393,8 +393,8 @@ B_VQ2104,Shadow jump,SQ2201_LightVoiceReal_Shadow2,1,OneShot,100,0
 B_VQ2105,Repeat 501 Shadow jump — position 5; continue Communion reactivity/light on Joans; light trails pull toward center if feasible.,,,,,
 B_VQ2105,Shadow jump,SQ2201_LightVoiceReal_Shadow3,1,OneShot,100,0
 B_SQ2104.5,HustleGroundCommunion,SQ2203_HustleGroundCommunion,1,Loop,100,3,Hustle;Ground
-B_SQ2104.5,Fade out LightVoiceRealCommunion1,SQ2203_LightVoiceRealCommunion1,1,Stop,0,5,Light;Voice;Real
-B_SQ2105.5,LightVoiceRealCommunion2,SQ2203_LightVoiceRealCommunion2,1,Loop,100,3,Light;Voice;Real
+B_SQ2104.6,Fade out LightVoiceRealCommunion1,SQ2203_LightVoiceRealCommunion1,1,Stop,0,5,Light;Voice;Real
+B_SQ2104.6,LightVoiceRealCommunion2,SQ2203_LightVoiceRealCommunion2,1,Loop,100,3,Light;Voice;Real
 B_SQ3000,Fade out LightVoiceRealCommunion2,SQ2203_LightVoiceRealCommunion2,1,Stop,0,5,Light;Voice;Real
 B_VQ3101 ,Repeat 601 Shadow dissolve; Communion light leaves 5x Joans → attracts to center; converge into single central light figure. (Shadow dissolve part),,,,,
 B_SQ3101,Fade out LightVoiceRealCommunion2,SQ2203_LightVoiceRealCommunion2,1,Stop,0,5,Light;Voice;Real
