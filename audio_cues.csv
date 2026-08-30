@@ -1,5 +1,5 @@
 BaseUrl,https://raw.githubusercontent.com/your-org/your-repo/main/audio,,,,,,
-CsvVersion,36,,,,,,
+CsvVersion,37,,,,,,
 CueId,Notes,StemFileName,Version,Action,Volume,Speed,Joan
 A_SQ001,Prologue audio only,,,,,
 A_SQ101,Scene 1,,,,,
@@ -152,7 +152,7 @@ B_SQ601,,SQ601_CommunionAria_Voice,2,OneShot,100,0
 
 B_VQ601,{ ENABLE } Communion Scene,,,,,
 
-B_SQ601.5,M1 Trigger Communion Stab - Ripples descend,SQ501_Light_Shadow2,2,Stop,0,10
+B_SQ601.5,M1 Trigger Communion Stab - Ripples descend (shadow stop),SQ501_Light_Shadow2,2,Stop,0,10
 B_SQ601.5,,SQ601.5_CommunionStabAug_Ground,1,OneShot,100,0
 B_SQ601.5,{ ENABLE } VQ: Add 'Hustle' Figure,SQ601.5_CommunionStabAug_Hustle,1,OneShot,100,0
 B_SQ601.5,{ ENABLE } VQ: Add  'Light' Figure,SQ601.5_CommunionStabAug_Light,1,OneShot,100,0
@@ -399,7 +399,7 @@ B_SQ3000,Fade out LightVoiceRealCommunion2,SQ2203_LightVoiceRealCommunion2,1,Sto
 B_VQ3101 ,Repeat 601 Shadow dissolve; Communion light leaves 5x Joans → attracts to center; converge into single central light figure. (Shadow dissolve part),,,,,
 B_SQ3101,Fade out LightVoiceRealCommunion2,SQ2203_LightVoiceRealCommunion2,1,Stop,0,5,Light;Voice;Real
 B_SQ3101,Fade out HustleGroundCommunion,SQ2203_HustleGroundCommunion,1,Stop,0,5,Hustle;Ground
-B_VQ3105,Real Joan moves forward into centralized Communion light; keep light responsive.,,,,,
+B_VQ3105,Real Joan moves forward into centralized Communion light; keep light responsive. (shadow stop),,,,,
 B_VQ3105,Stop 2101,SQ2201_LightVoiceReal_Shadow1,1,Stop,0,3
 B_SQ3201,Communion 1 — SQ3201_HustleGroundCommunion1,SQ3201_HustleGroundCommunion1,1,Loop,100,2,Hustle;Ground
 B_SQ3202,Crossfade Communion 1 → 2,SQ3201_HustleGroundCommunion1,1,Stop,0,2,Hustle;Ground
